@@ -1,7 +1,7 @@
  === Easy Notify Lite- The Best Notify and Subscription Form Plugin ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: notify, optin, opt-in, optin forms, optin monster, popup domination, subscribe, subscribers form, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact
+Tags: notify, optin, opt-in, optin forms, optin monster, popup domination, subscribe, subscribers form, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, images, image, plugin
 Requires at least: 3.3
 Tested up to: 3.9.2
 Stable tag: 1.0.0
@@ -45,7 +45,7 @@ Integrates with all major email marketing softwares including:
 * Mad Mimi
 * Constant Contact
 
-== Recommended Plugins ==
+= Recommended Plugins =
 The following are other recommended plugins by the author:
 
 * [Easy Media Gallery](http://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
