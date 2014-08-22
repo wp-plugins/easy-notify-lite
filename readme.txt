@@ -1,7 +1,7 @@
- === Easy Notify Lite- The Best Notify and Subscription Form Plugin ===
-Contributors: GhozyLab
+ === Easy Notify Popup ===
+Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: notify, optin, opt-in, optin forms, optin monster, popup domination, subscribe, subscribers form, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, images, image, plugin
+Tags: notify, optin, opt-in, optin forms, popup, optin monster, popup domination, subscribe, subscribers form, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, images, image, plugin
 Requires at least: 3.3
 Tested up to: 3.9.2
 Stable tag: 1.0.0
@@ -55,7 +55,7 @@ The following are other recommended plugins by the author:
 
 = For automatic installation: =
 
-The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy Notify Lite' in the search field.
+The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy Notify Popup' in the search field.
 
 = For manual installation 1: =
 
@@ -82,7 +82,7 @@ Coming Soon
 
 = How can I get support? =
 
-* We are not able to provide anything other than community based support for Easy Notify Lite. Please consider upgrading to [Easy Notify Professional](http://ghozylab.com/) for support.
+* We are not able to provide anything other than community based support for Easy Notify. Please consider upgrading to [Easy Notify Professional](http://ghozylab.com/) for support.
 
 
 = How can I say thanks? =
