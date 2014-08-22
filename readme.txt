@@ -100,7 +100,8 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 1. Easy Notify for Opt-in Subscribe Form
 2. Easy Notify for Social Share Button
 3. Easy Notify for Custom Button and Text
-
+4. Basic Notify
+5. Easy Notify for Youtube or Vimeo
 
 == Changelog ==
 
