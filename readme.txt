@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: notify, optin, opt-in, optin forms, popup, optin monster, popup domination, subscribe, subscribers form, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, images, image, plugin
 Requires at least: 3.3
 Tested up to: 3.9.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -104,6 +104,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 5. Easy Notify for Youtube or Vimeo
 
 == Changelog ==
+
+= 1.0.1 =
+* Replace FancyBox 2 with FancyBox 1.3.4 ( GPL )
 
 = 1.0.0 =
 * This is the launch version. No changes yet.

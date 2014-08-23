@@ -40,7 +40,7 @@ function easynotify_preview( $id, $val ) {
 		
 		echo '<div style="display: none !important;" id="inline-container-'.$id.'">';
 		echo'<a style="display: none !important;" href="#noty-'.$id.'" id="launcher-'.$id.'"></a>';
-		echo'<div style="display: none !important;" id="noty-'.$id.'">';
+		echo'<div style="display: none !important;"><div id="noty-'.$id.'">';
 		
 		include_once str_replace('_', '-', $layout ).'.php';
 		$layoutfunc = $layout;
@@ -58,36 +58,22 @@ function easynotify_preview( $id, $val ) {
 					var timerId;
 					if(timerId != undefined){clearInterval(timerId);}
  					timerId =  setInterval(function (){
-					jQuery('#launcher-<?php echo $id; ?>').easynotify({
+					jQuery('#launcher-<?php echo $id; ?>').fancybox({
 						type: 'inline',
-						maxWidth: '100%',
+						padding: 0,
+						margin: 60,
 						width: '<?php echo $val['enoty_cp_thumbsize_tw']; ?>',
 						height: '<?php echo $val['enoty_cp_thumbsize_th']; ?>',
-						padding : 0,
-						margin: [60, 60, 60, 60],
-						modal: false,
-						hideLoading	: true,
-						openSpeed: 500,
-						closeSpeed: 500,
-						openEffect: '<?php echo $offect[1]; ?>', 
-						closeEffect: '<?php echo $cffect[1]; ?>',
-						autoSize: false,
+						transitionIn: '<?php echo $offect[1]; ?>', 
+						transitionOut: '<?php echo $cffect[1]; ?>',
+						autoScale: false,
+						showNavArrows: false,
+						hideOnOverlayClick: false,
+						autoDimensions: false,
 						fitToView: false,
 						scrolling: 'no',
-						keys : {
-							 close  : null
-							 },
-						helpers: {
-							overlay : {
-								closeClick : false,
-								locked : false
-								}
-							}, 
-						tpl: {
-							wrap:'<div class="enotybox-wrap"><div class="enotybox-skin enoty-custom-wrapper"><div class="enotybox-outer"><div class="enotybox-inner"></div></div></div></div>'
-							},
-						afterLoad: function(){
-							    clearInterval(timerId); // clear interval... it is 
+						onComplete: function(){
+							    clearInterval(timerId);
 								}
 						}).trigger("click");
 						}, <?php echo $val['enoty_cp_notify_delay']; ?>000);
@@ -100,7 +86,7 @@ function easynotify_preview( $id, $val ) {
 
 easynotify_dynamic_styles( $id, $val, '1' );
 
-echo '</div>'; 
+echo '</div></div>'; 
 echo '</body></html>'; 
 $prevw = ob_get_clean();
 echo $prevw;  

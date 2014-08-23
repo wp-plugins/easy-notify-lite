@@ -33,9 +33,6 @@
 	vertical-align: top;
 	position: relative;
 	text-shadow: none;
-	-webkit-border-radius: 4px;
-	   -moz-border-radius: 4px;
-	        border-radius: 4px;	
 			
 	}
 
@@ -76,4 +73,23 @@
 		
 .enotybox-close {
 	outline: none !important;
+	}
+	
+/* Responsive Design */
+@media only screen and (max-width: 767px) {
+	
+	.enoty-custom-wrapper {
+		width:auto !important;
+		height:auto !important;
+		}
+	
+}
+	
+@media only screen and (max-width: 480px) {
+	
+	.enoty-custom-wrapper {
+		width:auto !important;
+		height:auto !important;
+		}
+
 	}

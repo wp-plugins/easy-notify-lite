@@ -76,7 +76,6 @@ if ( is_admin() && ( isset( $_GET['page'] ) == 'easynotify_settings' ) && ( isse
 	wp_enqueue_style( 'enoty-colorpicker' );		
 	wp_enqueue_script( 'enoty-colorpickerjs' );
 	wp_enqueue_script( 'eno-cpscript', plugins_url( 'functions/easynotify-script.js' , __FILE__ ) );
-	wp_enqueue_script( 'eno-mailinglist', plugins_url( 'functions/optin-handler/js/easynotify-mailinglist.js' , __FILE__ ) );
 	
 }
 

@@ -165,8 +165,6 @@ function easynotify_script() {
 	
 		wp_enqueue_script( 'enoty-enotybox-js' );
 		wp_enqueue_script( 'enoty-cookie-front' );
-		wp_enqueue_script( 'enoty-placeholder' );
-		wp_enqueue_script( 'enoty-js' );
 	
 }
 

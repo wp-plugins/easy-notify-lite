@@ -176,35 +176,21 @@ function easynotify_ajax_script( $id, $val ) {
 					var timerId;
 					if(timerId != undefined){clearInterval(timerId);}
  					timerId =  setInterval(function (){
-					jQuery('#launcher-<?php echo $id; ?>').easynotify({
+					jQuery('#launcher-<?php echo $id; ?>').fancybox({
 						type: 'inline',
-						maxWidth: '100%',
+						padding: 0,
+						margin: 60,
 						width: '<?php echo get_post_meta( $id, 'enoty_cp_thumbsize_tw', true ); ?>',
 						height: '<?php echo get_post_meta( $id, 'enoty_cp_thumbsize_th', true ); ?>',
-						padding : 0,
-						margin: [60, 60, 60, 60],
-						modal: false,
-						hideLoading	: true,
-						openSpeed: 500,
-						closeSpeed: 500,
-						openEffect: '<?php echo $offect[1]; ?>', 
-						closeEffect: '<?php echo $cffect[1]; ?>',
-						autoSize: false,
+						transitionIn: '<?php echo $offect[1]; ?>', 
+						transitionOut: '<?php echo $cffect[1]; ?>',
+						autoScale: false,
+						showNavArrows: false,
+						hideOnOverlayClick: false,
+						autoDimensions: false,
 						fitToView: false,
 						scrolling: 'no',
-						keys : {
-							 close  : null
-							 },
-						helpers: {
-							overlay : {
-								closeClick : false,
-								locked : false
-								}
-							}, 
-						tpl: { 
-							wrap:'<div class="enotybox-wrap"><div class="enotybox-skin enoty-custom-wrapper"><div class="enotybox-outer"><div class="enotybox-inner"></div></div></div></div>'
-							},
-						afterLoad: function(){
+						onComplete: function(){
 							    clearInterval(timerId);
 								}
 						}).trigger("click");
@@ -474,16 +460,16 @@ function easynotify_dynamic_styles( $id, $val = '', $type = '' ) {
 
   echo '
        <style type="text/css">
-            .enoty-enotybox-overlay {
+            #fancybox-overlay {
 				background: url('.ENOTIFY_URL.'/css/images/patterns/'.$data['pattern'].') !important; background-repeat: repeat;
 				background-color:'.$data['overlaycol'].' !important;
 				filter: alpha(opacity='.$data['overlayopct'].');
    				filter: progid:DXImageTransform.Microsoft.Alpha(opacity='.$data['overlayopct'].');
-   				opacity:'.$pattopctymz.';
-   				-moz-opacity:'.$pattopctymz.'0; 
+   				opacity:'.$pattopctymz.' !important;
+   				-moz-opacity:'.$pattopctymz.'0 !important; 
 				}
 				
-			.enoty-custom-wrapper {
+			.enoty-custom-wrapper, #fancybox-content, #fancybox-outer {
 				background: #272727;
 				background-image: -webkit-linear-gradient(top, #272727 0, #383838 30%, #383838 70%, #272727 100%);
 				background-image: -moz-linear-gradient(top, #272727 0, #383838 30%, #383838 70%, #272727 100%);
@@ -491,7 +477,7 @@ function easynotify_dynamic_styles( $id, $val = '', $type = '' ) {
 				background-image: -o-linear-gradient(top, #272727 0, #383838 30%, #383838 70%, #272727 100%);
 				background-image: linear-gradient(top, #272727 0, #383838 30%, #383838 70%, #272727 100%);
 				}
-				
+					
 			.noty-text-header {
 				background: '.$data['headerback'].'; 
 			}
