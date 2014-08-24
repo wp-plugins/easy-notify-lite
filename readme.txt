@@ -1,18 +1,18 @@
  === Easy Notify Popup ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: notify, optin, opt-in, optin forms, popup, optin monster, popup domination, subscribe, subscribers form, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, images, image, plugin
+Tags: notify, optin, opt-in, optin forms, popup, optin monster, popup domination, subscribe, subscribers form, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, post, admin, posts, google, twitter, page, images, image, plugin
 Requires at least: 3.3
 Tested up to: 3.9.2
 Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The Best Notify and Subscription Form Plugin to display notify, announcement and subscribe form ( Opt-in ) with very ease, fancy and elegant.
+The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
 
 == Description ==
 
-The Easy Notify allows you to create visually stunning optin forms ( Pro Version Only ) that are optimized for the highest conversion rates.
+The Easy Notify allows you to create visually stunning optin forms (<em>Pro Version</em>) that are optimized for the highest conversion rates.
 
 ### [The Best Notify and Subscription Form Plugin](http://ghozylab.com/plugins/easy-notify-pro/)
 
@@ -113,5 +113,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-None
+= 1.0.1 =
+IMPORTANT! License issue, PLEASE UPDATE NOW!
