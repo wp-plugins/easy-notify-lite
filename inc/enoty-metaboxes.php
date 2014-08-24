@@ -704,15 +704,21 @@ echo '<td id="imgupld"><input id="notify_image" type="text" name="enoty_meta['. 
 	   notyLayoutctrl('<?php echo ($meta ? $meta : $field['std']);?>');  
 	   <?php if ( $meta == '') { echo "jQuery('.defaultlayout').addClass('enoty_layout_selected'); "; } ?>             
  	jQuery('.enoty_layout_overlay').on('click', function() {
-		var layout = jQuery(this).attr('id');
-		jQuery('.enoty_layout_overlay').removeClass('enoty_layout_selected');
-		jQuery(this).addClass('enoty_layout_selected'); 
-		jQuery('#enoty_cp_layoutmode').val(layout);
-		notyLayoutctrl(layout);
+		if ( jQuery(this).index() <= 1 ) {
+			var layout = jQuery(this).attr('id');
+			jQuery('.enoty_layout_overlay').removeClass('enoty_layout_selected');
+			jQuery(this).addClass('enoty_layout_selected');
+			jQuery('#enoty_cp_layoutmode').val(layout);
+			notyLayoutctrl(layout);
+		} else {
+			alert('You have to upgrade to Pro Version to use this layout.');
+			return false;	
+			}
 	});		               
                 
           });
-    </script>                    				
+    </script>                    	 
+                       				
 				<?php	
 				echo '</td>';
 				
