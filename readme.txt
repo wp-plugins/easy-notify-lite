@@ -14,7 +14,8 @@ The Best Notify and Subscription Form Plugin to display notify popup, announceme
 
 The Easy Notify allows you to create visually stunning optin forms (<em>Pro Version</em>) that are optimized for the highest conversion rates.
 
-### [The Best Notify and Subscription Form Plugin](http://ghozylab.com/plugins/easy-notify-pro/)
+> #### **Why are subscribers important on website?**
+> Website traffic is good for first time visitors. They visit, look around, leave a comment, may be share a link, but they never come back. The thing is, it's hard to get visitors to return to your website without a hook. Luckily, emails newsletters provide just that. When people subscribe to an email newsletter, they're giving you their permission to email them regularly. They're telling you they want to hear from you. And that's just the tip of the iceberg.
 
 > #### **Live Demos**
 
