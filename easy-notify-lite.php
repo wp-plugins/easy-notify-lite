@@ -212,7 +212,7 @@ function easynotify_edit_columns_list( $easynotify_columns, $post_id ){
 		
 	    case 'enoty_shortcode':
 		
-		echo '[easy-notify id='.$post_id.']';
+		echo '<span class="scode-block">[easy-notify id='.$post_id.']</span>';
 
 	        break;
 			
