@@ -36,6 +36,12 @@ Here are the amazing features that allow Easy Notify to get you tons of new emai
 * Social Share Button (<em>Pro Version</em>)
 * Custom Button and Text to redirect to specific URL (<em>Pro Version</em>)
 * Integrates with all major email marketing softwares (<em>Pro Version</em>)
+* Full API integration with mailing services (<em>Pro Version</em>)
+* Page level Targeting (different popups for each post/page, turn popup on/off for all page or for few pages/posts)
+* Open Delay (open popup delay in seconds)
+* Easy to Configuration ( No coding required! )
+* Great Popups Design (many color, many layouts)
+* Highly Customizable!
 
 Integrates with all major email marketing softwares including:
 
