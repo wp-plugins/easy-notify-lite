@@ -29,6 +29,7 @@ The Easy Notify allows you to create visually stunning optin forms (<em>Pro Vers
 
 Here are the amazing features that allow Easy Notify to get you tons of new email subscribers.
 
+* Unlimited Popup / Form
 * Notify Lightbox Popups
 * Image Lightbox Popups
 * Subscription Form - Opt-in (<em>Pro Version</em>)
