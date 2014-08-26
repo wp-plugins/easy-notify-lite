@@ -1402,7 +1402,7 @@ function enoty_metabox_work(){
 	    $enotymeta_box = array(
 		'id' => 'enoty_metaboxmediasc',
 		'title' =>  __( 'Shortcode Generator', 'easynotify' ),
-		'description' => __( 'This is the final steps. Now you can copy the shortcode and paste to your New/Old Post/Page to show your Notify. If you want to set Notify to show on every pages you can go <a href="'.admin_url( 'edit.php?post_type=easynotify&page=easynotify_settings' ).'">'.__('here', 'easynotify').'</a> under <strong>Default Notify</strong> > select the notify from dropdown list.<br /><strong style="color:#0678CC;">Make sure to Save/Update Notify before/after copy the shortcode.</strong><span class="enotystepfour"></span>', 'easynotify' ),
+		'description' => __( 'This is the final steps. Now you can copy the shortcode and paste to your New/Old Post/Page to show your Notify. If you want to set Notify to show on everywhere you can go <a href="'.admin_url( 'edit.php?post_type=easynotify&page=easynotify_settings' ).'">'.__('here', 'easynotify').'</a> under <strong>Default Notify</strong> > select the notify from dropdown list.<br /><strong style="color:#0678CC;">Make sure to Save/Update Notify before/after copy the shortcode.</strong><span class="enotystepfour"></span>', 'easynotify' ),
 		'page' => 'easynotify',
 		'context' => 'normal',
 		'priority' => 'default',

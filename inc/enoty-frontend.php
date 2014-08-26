@@ -165,6 +165,13 @@ function easynotify_script() {
 	
 		wp_enqueue_script( 'enoty-enotybox-js' );
 		wp_enqueue_script( 'enoty-cookie-front' );
+		
+ob_start(); ?>
+
+<!-- <?php echo ENOTIFY_NAME; ?> -->    
+<!-- Version : <?php echo ENOTIFY_VERSION; ?> --> 
+		
+<?php echo ob_get_clean();	
 	
 }
 
