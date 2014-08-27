@@ -28,6 +28,9 @@ The Easy Notify allows you to create visually stunning optin forms (<em>Pro Vers
 = LITE VERSION Video =
 <p>http://www.youtube.com/watch?v=Kss5x7f5DiY</p>
 
+= PRO VERSION Video =
+<p>http://www.youtube.com/watch?v=Q0cW7bLzuhw</p>
+
 = Features =
 
 Here are the amazing features that allow Easy Notify to get you tons of new email subscribers.
