@@ -49,7 +49,7 @@ Here are the amazing features that allow Easy Notify to get you tons of new emai
 * Great Popups Design (many color, many layouts)
 * Highly Customizable!
 
-Integrates with all major email marketing softwares including:
+Pro Version integrates with all major email marketing softwares including:
 
 * Aweber
 * MailChimp
