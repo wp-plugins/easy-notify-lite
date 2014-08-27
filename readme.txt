@@ -25,6 +25,9 @@ The Easy Notify allows you to create visually stunning optin forms (<em>Pro Vers
 > * [DEMO : Popup with Custom Text & Button](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-custom-text-button/)
 > * [DEMO : Popup with Video](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-video/)
 
+= LITE VERSION Video =
+<p>http://www.youtube.com/watch?v=Kss5x7f5DiY</p>
+
 = Features =
 
 Here are the amazing features that allow Easy Notify to get you tons of new email subscribers.
