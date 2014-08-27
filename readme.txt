@@ -88,8 +88,9 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy N
 
 == Frequently Asked Questions ==
 
-Coming Soon
+= How to create Page level Targeting (different popups for each post/page) =
 
+<p>http://www.youtube.com/watch?v=p30mvczUa_4</p>
 
 = How can I get support? =
 
