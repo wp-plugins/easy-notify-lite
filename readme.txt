@@ -1,7 +1,7 @@
  === Easy Notify Popup ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: optin, opt-in, optin forms, popup, optin monster, popup domination, subscribe, subscribers form, notification, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, post, admin, posts, google, twitter, page, images, image, plugin, popup box, popup message, popup window, popups, shortcode
+Tags: optin, opt-in, subscribe, optin forms, popup, optin monster, popup domination, subscribers form, notification, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, post, admin, posts, google, twitter, page, images, image, plugin, popup box, popup message, popup window, popups, shortcode
 Requires at least: 3.3
 Tested up to: 3.9.2
 Stable tag: 1.0.1
