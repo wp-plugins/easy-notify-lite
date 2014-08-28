@@ -589,7 +589,7 @@ function easynotify_comparison() {
   <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:600px;">
     <div class="caption_column">
       <ul>
-        <li class="header_row_1 align_center radius5_topleft"></li>
+        <li class="header_row_1 align_center radius5_topleft"><script src="https://apis.google.com/js/platform.js"></script><div style="padding-top: 10px;display:inline-block;"><div class="g-ytsubscribe" data-channel="GhozyLab" data-layout="default"></div></div></li>
         <li class="header_row_2" style="text-align: center;">
           <img style="display:inline-block; margin-right: 15px;" src="<?php echo plugins_url( 'images/logo.png' , dirname(__FILE__) ); ?>" width="60" height="60"/><h2 class="caption" style="display:inline-block; font-size: 25px; vertical-align:top; margin-top: 7px;">Easy Notify Lite</h2>
         </li> 
