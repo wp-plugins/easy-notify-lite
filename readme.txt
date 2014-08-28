@@ -1,7 +1,7 @@
  === Easy Notify Popup ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: optin, opt-in, subscribe, optin forms, popup, optin monster, popup domination, subscribers form, notification, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, post, admin, posts, google, twitter, page, images, image, plugin, popup box, popup message, popup window, popups, shortcode
+Tags: optin, opt-in, subscribe, optin form, email subscriber, popup, optin monster, popup domination, jquery, wordpress popup, subscribers form, notification, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, post, admin, posts, google, twitter, page, images, image, plugin, popup box, popup message, popup window, popups, shortcode
 Requires at least: 3.3
 Tested up to: 3.9.2
 Stable tag: 1.0.1
@@ -26,9 +26,11 @@ The Easy Notify allows you to create visually stunning optin forms (<em>Pro Vers
 > * [DEMO : Popup with Video](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-video/)
 
 = LITE VERSION Video =
+<p></p>
 <p>http://www.youtube.com/watch?v=Kss5x7f5DiY</p>
 
 = PRO VERSION Video =
+<p></p>
 <p>http://www.youtube.com/watch?v=Q0cW7bLzuhw</p>
 
 = Features =
@@ -92,7 +94,7 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy N
 == Frequently Asked Questions ==
 
 = How to create Page level Targeting (different popups for each post/page) =
-
+<p></p>
 <p>http://www.youtube.com/watch?v=p30mvczUa_4</p>
 
 = How can I get support? =
