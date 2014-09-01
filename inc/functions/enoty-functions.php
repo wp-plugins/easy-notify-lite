@@ -560,6 +560,44 @@ if (typeof(jQuery().pointer) != 'undefined') {
 
 
 /*-------------------------------------------------------------------------------*/
+/*   DEMO Page
+/*-------------------------------------------------------------------------------*/
+function easynotify_demo_page() {
+    $enoty_demo_page = add_submenu_page('edit.php?post_type=easynotify', 'DEMO', __('DEMO', 'easynotify'), 'edit_posts', 'docs', 'easynotify_demo_video');
+}
+add_action( 'admin_menu', 'easynotify_demo_page' );
+
+
+function easynotify_demo_video() {
+	?>
+    <div class="wrap">
+        <div id="icon-edit" class="icon32 icon32-posts-easynotify"><br /></div>
+        <h2><?php _e('Demo', 'easynotify'); ?></h2>
+        <p><?php _e(' The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.', 'easynotify'); ?></p>
+<div class="metabox-holder">
+			<div class="postbox">
+				<h3><?php _e( 'Lite Version', 'easynotify' ); ?></h3>
+        <div id="easynotify_lite_vid" style="padding:10px !important; ">
+        <iframe width="640" height="360" src="//www.youtube.com/embed/Kss5x7f5DiY?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+       </div>
+  </div>
+  
+ <div class="metabox-holder">
+			<div class="postbox">
+				<h3><?php _e( 'PRO Version', 'easynotify' ); ?></h3>
+        <div id="easynotify_pro_vid" style="padding:10px !important; ">
+        <iframe width="640" height="360" src="//www.youtube.com/embed/Q0cW7bLzuhw?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+       </div>
+  </div>
+   
+  </div> 
+	<?php 
+}
+
+
+/*-------------------------------------------------------------------------------*/
 /*   Comparison Page
 /*-------------------------------------------------------------------------------*/
 function easynotify_create_comparison_page() {
@@ -727,5 +765,6 @@ function easynotify_comparison() {
 
 <?php
 }
+
 	 
 ?>
