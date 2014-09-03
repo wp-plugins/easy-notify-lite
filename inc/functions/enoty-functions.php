@@ -574,7 +574,15 @@ function easynotify_demo_video() {
         <div id="icon-edit" class="icon32 icon32-posts-easynotify"><br /></div>
         <h2><?php _e('Demo', 'easynotify'); ?></h2>
         <p><?php _e(' The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.', 'easynotify'); ?></p>
-<div class="metabox-holder">
+        
+<div class="metabox-holder" style="display:inline-block; width: 330px; max-width: 33%; float:right; vertical-align:top;">
+			<div class="postbox">
+            <h3><?php _e( 'Check it Out!', 'easynotify' ); ?></h3>
+            <?php easynotify_news_metabox(); ?>
+           </div>
+	</div>
+ 
+<div class="metabox-holder" style="max-width:69%; display:block;">
 			<div class="postbox">
 				<h3><?php _e( 'Lite Version', 'easynotify' ); ?></h3>
         <div id="easynotify_lite_vid" style="padding:10px !important; ">
@@ -583,7 +591,7 @@ function easynotify_demo_video() {
        </div>
   </div>
   
- <div class="metabox-holder">
+<div class="metabox-holder" style="max-width:69%; display:block;">
 			<div class="postbox">
 				<h3><?php _e( 'PRO Version', 'easynotify' ); ?></h3>
         <div id="easynotify_pro_vid" style="padding:10px !important; ">
@@ -594,6 +602,17 @@ function easynotify_demo_video() {
    
   </div> 
 	<?php 
+}
+
+
+/*-------------------------------------------------------------------------------*/
+/*  Create News MetaBox
+/*-------------------------------------------------------------------------------*/
+function easynotify_news_metabox () {
+	$new = '<div style="text-align:center;">';
+	$new .= '<a style="outline: none !important;" href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=easynotifylite&utm_medium=demopage&utm_campaign=linkfromdemopage" target="_blank"><img style="cursor:pointer; margin-top: 7px; margin-bottom: 7px;" src="'.plugins_url( 'images/easy-media-gallery.png' , dirname(__FILE__) ).'" width="300" height="250" alt="Best Gallery Plugin!" ></a>';
+	$new .= '</div>';
+echo $new;	
 }
 
 
@@ -765,6 +784,23 @@ function easynotify_comparison() {
 
 <?php
 }
+
+
+/*-------------------------------------------------------------------------------*/
+/*   Rate Notice
+/*-------------------------------------------------------------------------------*/
+function easynotify_rate_notify() {
+	global $post_type;
+	
+	if( 'easynotify' == $post_type ) {
+
+		echo'<div class="updated"><div class="enoty_message"><img class="enoty_icon" title="" src="' . plugins_url( 'images/five-stars.png', dirname(__FILE__) ) . '" alt="Rate Us!"/><div class="enoty_text"><span>Have a story to share about <strong>'.ENOTIFY_NAME.'</strong> experience? We\'d love to hear your feedback and rate 5 stars would be appreciated!</span></div><a class="button enoty_button" href="http://wordpress.org/support/view/plugin-reviews/easy-notify-lite?filter=5#postform" target="_blank">RATE US NOW</a></div></div>';
+	}
+}
+
+if ( enoty_get_option( 'easynotify_disen_admnotify' ) == '1' ) {
+	add_action( 'admin_notices', 'easynotify_rate_notify', 1 );
+	}
 
 	 
 ?>
