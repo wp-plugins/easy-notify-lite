@@ -38,44 +38,27 @@ function easynotify_not_logged_in( $content ) {
 /*-------------------------------------------------------------------------------*/
 function easynotify_strip_default_noty( $content ) {
 	
- 	$new_content = $content; $ishome	= enoty_get_option( 'easynotify_swhome' ); $ispage	= enoty_get_option( 'easynotify_swpage' ); $ispost	= enoty_get_option( 'easynotify_swpost' ); $isctach = enoty_get_option( 'easynotify_swcatarch' ); $fromcp = enoty_get_option( 'easynotify_defaultnotify' );
+ 	$new_content = $content; $ishome = enoty_get_option( 'easynotify_swhome' ); $ispage	= enoty_get_option( 'easynotify_swpage' ); $ispost	= enoty_get_option( 'easynotify_swpost' ); $isctach = enoty_get_option( 'easynotify_swcatarch' ); $fromcp = enoty_get_option( 'easynotify_defaultnotify' );
 	
-		if( $ispage ) {
-			if( is_page() ) {
-				if ( !isset( $_COOKIE["notify-".$fromcp.""] ) || get_post_meta( $fromcp, 'enoty_cp_cookies', true ) == '-1' ) {
-				$new_content = easynotify_strip_shortcode('easy-notify', $new_content);
-				//$new_content .= do_shortcode( '[easy-notify id="'.$fromcp.'"]' ); <-- disabled due double notify issue
-					}
-				}
+	if ( !isset( $_COOKIE["notify-".$fromcp.""] ) || get_post_meta( $fromcp, 'enoty_cp_cookies', true ) == '-1' ) {
+	
+		if( $ispage && is_page() ) {
+			$new_content = easynotify_strip_shortcode('easy-notify', $content);
 			}
 			
-		if( $ispost ) {
-			if( is_single() ) {
-				if ( !isset( $_COOKIE["notify-".$fromcp.""] ) || get_post_meta( $fromcp, 'enoty_cp_cookies', true ) == '-1' ) {
-				$new_content = easynotify_strip_shortcode('easy-notify', $new_content);
-				//$new_content .= do_shortcode( '[easy-notify id="'.$fromcp.'"]' ); <-- disabled due double notify issue
-					}
-				}
-			}			
-			
-		if( $ishome ) {
-			if( is_home() || is_front_page() ) {
-				if ( !isset( $_COOKIE["notify-".$fromcp.""] ) || get_post_meta( $fromcp, 'enoty_cp_cookies', true ) == '-1' ) {
-				$new_content = easynotify_strip_shortcode('easy-notify', $new_content);
-				//$new_content .= do_shortcode( '[easy-notify id="'.$fromcp.'"]' ); <-- disabled due double notify issue
-					}
-				}
+		elseif( $ispost && is_single() ) {
+			$new_content = easynotify_strip_shortcode('easy-notify', $content);
 			}
 			
-		if( $isctach ) {
-			if( is_category() || is_archive() ) {
-				if ( !isset( $_COOKIE["notify-".$fromcp.""] ) || get_post_meta( $fromcp, 'enoty_cp_cookies', true ) == '-1' ) {
-				$new_content = easynotify_strip_shortcode('easy-notify', $new_content);
-				//$new_content .= do_shortcode( '[easy-notify id="'.$fromcp.'"]' ); <-- disabled due double notify issue
-					}
-				}
-			}						
-
+		elseif( ( $ishome && is_home() ) || ( $ishome && is_front_page() ) ) {
+			$new_content = easynotify_strip_shortcode('easy-notify', $content);
+			}	
+				
+		elseif( ( $isctach && is_category() ) || ( $isctach && is_archive() ) ) {
+			$new_content = easynotify_strip_shortcode('easy-notify', $content);
+			}
+			
+		}
 		return $new_content;
 }
 
@@ -86,37 +69,25 @@ function generate_global_notify(){
 	
  	$ishome	= enoty_get_option( 'easynotify_swhome' ); $ispage	= enoty_get_option( 'easynotify_swpage' ); $ispost	= enoty_get_option( 'easynotify_swpost' ); $isctach = enoty_get_option( 'easynotify_swcatarch' ); $fromcp = enoty_get_option( 'easynotify_defaultnotify' );
 	
-		if( $ispage ) {
-			if( is_page() ) {
-				if ( !isset( $_COOKIE["notify-".$fromcp.""] ) || get_post_meta( $fromcp, 'enoty_cp_cookies', true ) == '-1' ) {
-					echo do_shortcode( '[easy-notify id="'.$fromcp.'"]' );
-					}
-				}
+	if ( !isset( $_COOKIE["notify-".$fromcp.""] ) || get_post_meta( $fromcp, 'enoty_cp_cookies', true ) == '-1' ) {
+	
+		if( $ispage && is_page() && !is_front_page() && !is_home() ) {
+			echo do_shortcode( '[easy-notify id="'.$fromcp.'"]' );
 			}
 			
-		if( $ispost ) {
-			if( is_single() ) {
-				if ( !isset( $_COOKIE["notify-".$fromcp.""] ) || get_post_meta( $fromcp, 'enoty_cp_cookies', true ) == '-1' ) {
-					echo do_shortcode( '[easy-notify id="'.$fromcp.'"]' );
-					}
-				}
-			}			
-			
-		if( $ishome ) {
-			if( is_home() || is_front_page() ) {
-				if ( !isset( $_COOKIE["notify-".$fromcp.""] ) || get_post_meta( $fromcp, 'enoty_cp_cookies', true ) == '-1' ) {
-					echo do_shortcode( '[easy-notify id="'.$fromcp.'"]' );
-					}
-				}
+		elseif( $ispost && is_single() && !is_front_page() && !is_home() ) {
+			echo do_shortcode( '[easy-notify id="'.$fromcp.'"]' );
 			}
 			
-		if( $isctach ) {
-			if( is_category() || is_archive() ) {
-				if ( !isset( $_COOKIE["notify-".$fromcp.""] ) || get_post_meta( $fromcp, 'enoty_cp_cookies', true ) == '-1' ) {
-					echo do_shortcode( '[easy-notify id="'.$fromcp.'"]' );
-					}
-				}
+		elseif( ( $ishome && is_home() ) || ( $ishome && is_front_page() ) ) {
+			echo do_shortcode( '[easy-notify id="'.$fromcp.'"]' );
 			}
+			
+		elseif( ( $isctach && is_category() ) || ( $isctach && is_archive() ) ) {
+			echo do_shortcode( '[easy-notify id="'.$fromcp.'"]' );
+			}	
+				
+		}
 }	
 
 
@@ -195,5 +166,14 @@ function easynotify_custom_css() {
 		echo '</style>';
 		}
 	}
+	
+function easynotify_remove_shortcode_from_index($content) {
+  if ( is_home() || is_front_page() || is_category() || is_archive() ) {
+    $content = easynotify_strip_shortcode('easy-notify', $content);
+  }
+  return $content;
+}
+add_filter('the_content', 'easynotify_remove_shortcode_from_index');
+	
 
 ?>
