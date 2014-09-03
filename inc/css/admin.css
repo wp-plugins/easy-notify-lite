@@ -638,3 +638,73 @@ td.enoty_shortcode.column-enoty_shortcode, td.enoty_preview.column-enoty_preview
 	padding: 4px;
 	background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.07)
 	}
+	
+/* Rate Notice */	
+.enoty_message {
+	min-width: 800px;
+	border: 1px solid #1b6394;
+	padding: 5px;
+	margin: 12px 0;
+	background: #2484c6;
+	position: relative;
+	overflow: hidden;
+	}
+	
+.enoty_message .enoty_text {
+	color: #FFF;
+	font-size: 15px;
+	line-height: 26px;
+	margin-top: 26px;
+	float: left;
+	width: auto;
+	}
+	
+.enoty_message .enoty_text span {
+	font-size: 12px;
+	opacity: 0.8;
+	}
+	
+.enoty_message .enoty_text span strong {
+	font-weight:bold;
+	font-size:16px;
+	font-style:italic;
+	}
+	
+.enoty_message .enoty_button {
+	float: right;
+	border: 1px solid #14496d; 
+	font-size: 14px;
+	margin: 12px;
+	margin-top: 19px;
+	padding: 9px 0;
+	color: #FFF;
+	text-shadow: 0 1px 3px #2483c5;
+	font-weight: bold;
+	background: #17537e;
+	-moz-border-radius : 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	text-decoration: none;
+	height: 45px;
+	text-align: center;
+	width: 135px;
+	-moz-box-shadow: 0px 1px 1px 0 #3e7aa3 inset;
+	-webkit-box-shadow: 0px 1px 1px 0 #3e7aa3 inset;
+	box-shadow: 0px 1px 1px 0 #3e7aa3 inset;
+	}
+	
+.enoty_message .enoty_button:hover,
+.enoty_message .enoty_button:focus {    
+	background: #2b9eed;
+	color: #FFF;
+	border: 1px solid #1d6ca1;
+	-moz-box-shadow: 0px 1px 1px 0 #4bacf0 inset;
+	-webkit-box-shadow: 0px 1px 1px 0 #4bacf0 inset;
+	box-shadow: 0px 1px 1px 0 #4bacf0 inset;
+	}
+	
+.enoty_message .enoty_icon {
+	float: left;
+	margin: 14px 18px 14px 14px;
+	}
+	
