@@ -1386,7 +1386,7 @@ function enoty_metabox_work(){
 		'priority' => 'default',
 		'fields' => array(
 			array(
-					'name' => __( 'Cookie Time on Close', 'easynotify' ),
+					'name' => __( 'Cookie Time on Close<span data-ppw="680" data-pph="375" data-toload="cookies.html" class="helpicon"></span>', 'easynotify' ),
 					'desc' => __( 'You can set the days when the Notify will shown again, for example 7 for every week.<br /><span style="color:red; font-weight:bold;">Set with -1 If you want to notify appear at any time.</span>', 'easynotify' ),
 					'id' => 'enoty_cp_cookies',
 					'type' => 'shorttext',
