@@ -3,7 +3,7 @@ Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
 Tags: optin, opt-in, subscribe, optin form, email subscriber, popup, optin monster, popup domination, AJAX, ajax form, jquery, wordpress popup, subscribers form, notification, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, post, admin, posts, google, twitter, page, images, image, plugin, popup box, popup message, popup window, popups, shortcode
 Requires at least: 3.3
-Tested up to: 3.9.2
+Tested up to: 4.0
 Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
