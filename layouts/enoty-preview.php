@@ -72,6 +72,7 @@ function easynotify_preview( $id, $val ) {
 						autoDimensions: false,
 						fitToView: false,
 						scrolling: 'no',
+						centerOnScroll: true,
 						onComplete: function(){
 							    clearInterval(timerId);
 								}
