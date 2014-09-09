@@ -188,3 +188,8 @@
 	background: linear-gradient(top,  rgba(69,72,77,0.5) 0%,rgba(0,0,0,0.5) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8045484d', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
 }
+
+/* Since Wordpress 4.0 */
+.eno_metaslider a.ui-slider-handle.ui-state-default.ui-corner-all:focus {
+	box-shadow:none !important;
+	}
