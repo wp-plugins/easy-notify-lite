@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Easy Notify Lite v1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-08-22 15:33:30+0000\n"
+"PO-Revision-Date: 2014-09-15 03:00:19+0000\n"
 "Last-Translator: admin <wpdev@ghozylab.net>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: easy-notify-lite.php:140
 #@ easynotify
 msgid "Add New Notify"
-msgstr ""
+msgstr "Neue Hinzufügen"
 
 #: easy-notify-lite.php:141
 #@ easynotify
@@ -33,7 +33,7 @@ msgstr ""
 #: easy-notify-lite.php:142
 #@ easynotify
 msgid "Edit Notify"
-msgstr ""
+msgstr "Bearbeiten"
 
 #: easy-notify-lite.php:143
 #@ easynotify
@@ -43,7 +43,7 @@ msgstr ""
 #: easy-notify-lite.php:144
 #@ easynotify
 msgid "View Notify"
-msgstr ""
+msgstr "Ansehen"
 
 #: easy-notify-lite.php:145
 #@ easynotify
@@ -97,7 +97,7 @@ msgstr ""
 #@ easynotify
 #@ default
 msgid "Preview"
-msgstr ""
+msgstr "Vorschau"
 
 #: easy-notify-lite.php:190
 #@ easynotify
@@ -113,7 +113,7 @@ msgstr ""
 #: inc/enoty-settings.php:42
 #@ easynotify
 msgid "Settings"
-msgstr ""
+msgstr "Einstellung"
 
 #: inc/enoty-metaboxes.php:10
 #@ default
@@ -138,7 +138,7 @@ msgstr ""
 #: inc/enoty-metaboxes.php:883
 #@ easynotify
 msgid "Please choose notify layout to fit your needs."
-msgstr ""
+msgstr "Bitte wählen Sie benachrichtigen Layout an Ihre Bedürfnisse anzupassen"
 
 #: inc/enoty-metaboxes.php:891
 #@ easynotify
@@ -615,10 +615,10 @@ msgstr ""
 #: inc/functions/enoty-functions.php:580
 #@ easynotify
 msgid "UPGRADE to PRO"
-msgstr ""
+msgstr "Upgrade auf Pro"
 
 #: inc/functions/enoty-functions.php:602
 #@ easynotify
 msgid "Comparison"
-msgstr ""
+msgstr "Vergleich"
 
