@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: optin, popup, opt-in, subscribe, optin form, email subscriber, optin monster, popup domination, AJAX, ajax form, jquery, wordpress popup, subscribers form, notification, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, post, admin, posts, google, twitter, page, images, image, plugin, popup box, popup message, popup window, popups, shortcode
 Requires at least: 3.3
 Tested up to: 4.0
-Stable tag: 1.0.7
+Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -122,6 +122,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.0.9 =
+* Fixed : Admin Bar Notification Placement ( only appear in our custom post type )
+
 = 1.0.7 =
 * Fixed : Double Notify on Home/Frontpage
 
@@ -139,5 +142,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.0.7 =
-IMPORTANT! Fixed double Notify on Home/Frontpage issue, PLEASE UPDATE NOW!
+= 1.0.9 =
+IMPORTANT! Fixed admin bar Upgrade Notify issue, PLEASE UPDATE NOW!

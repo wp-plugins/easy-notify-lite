@@ -504,7 +504,9 @@ function easynotify_admin_bar_menu(){
                 ) );
 }
 if ( enoty_get_option( 'easynotify_disen_admnotify' ) == '1' ) {
-add_action( 'admin_bar_menu', 'easynotify_admin_bar_menu', 1000);
+	if ( isset( $_GET['post_type'] ) && $_GET['post_type'] == 'easynotify' ) {
+		add_action( 'admin_bar_menu', 'easynotify_admin_bar_menu', 1000);
+	}
 }
 
 
