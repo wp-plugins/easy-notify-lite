@@ -847,31 +847,6 @@ echo '<td id="imgupld"><input id="notify_image" type="text" name="enoty_meta['. 
 	// SELECT MEDIA METABOX
 add_action( 'add_meta_boxes', 'enoty_metabox_work' );
 function enoty_metabox_work(){
-	
-	/*
-	    $enotymeta_box = array(
-		'id' => 'enoty_select_template',
-		'title' =>  __( 'Select Themes', 'easynotify' ),
-		'description' => __( 'Firstly, please select theme or template.<span class="enotystepone"></span>', 'easynotify' ),
-		'page' => 'easynotify',
-		'context' => 'normal',
-		'priority' => 'default',
-		'fields' => array(
-			array(
-					'name' => __( 'Theme', 'easynotify' ),
-					'desc' => __( 'Choose the available themes. You can UPGRADE to PRO Version to get more themes.', 'easynotify' ),
-					'id' => 'enoty_metabox_media_type',
-					'type' => 'select',
-					'options' => array (
-										'no_media'=> 'Select',
-										'theme1'=> 'Theme 1',
-										'theme2'=> 'Theme 2'),
-					'std' => 'Select')
-				),				
-				
-	);
-    enoty_add_meta_box( $enotymeta_box );	
-*/
 
 	//  Settings Panel METABOX
 	    $enotymeta_box = array(
@@ -1421,7 +1396,6 @@ function enoty_metabox_work(){
 				
 
 }
-
 
 //-----------------------------------------------------------------------------------------------------------------
 
