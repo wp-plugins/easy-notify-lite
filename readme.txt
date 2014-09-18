@@ -1,4 +1,4 @@
- === Easy Notify Popup ===
+ === Easy Lightbox Popup ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
 Tags: optin, popup, opt-in, subscribe, optin form, email subscriber, optin monster, popup domination, AJAX, ajax form, jquery, wordpress popup, subscribers form, notification, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, post, admin, posts, google, twitter, page, images, image, plugin, popup box, popup message, popup window, popups, shortcode
@@ -71,7 +71,7 @@ The following are other recommended plugins by the author:
 
 = For automatic installation: =
 
-The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy Notify Popup' in the search field.
+The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy Lightbox Popup' in the search field.
 
 = For manual installation 1: =
 
