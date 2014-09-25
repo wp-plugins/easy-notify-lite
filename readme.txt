@@ -1,14 +1,14 @@
  === Easy Lightbox Popup ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: optin, popup, opt-in, subscribe, optin form, email subscriber, optin monster, popup domination, AJAX, ajax form, jquery, wordpress popup, subscribers form, notification, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, post, admin, posts, google, twitter, page, images, image, plugin, popup box, popup message, popup window, popups, shortcode
+Tags: optin, popup, opt-in, subscribe, optin form, email subscriber, optin monster, popup domination, AJAX, jQuery lightbox, lightbox, wp seo, seo, wordpress seo, ajax form, jquery, wordpress popup, subscribers form, notification, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, post, admin, posts, google, twitter, page, images, image, plugin, popup box, popup message, popup window, popups, shortcode
 Requires at least: 3.3
 Tested up to: 4.0
 Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
+The Best Popup (Lightbox) to display image, video, unlimited content, announcement and subscribe form with very ease, fancy and elegant.
 
 == Description ==
 
