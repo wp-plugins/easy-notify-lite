@@ -46,7 +46,7 @@ Here are the amazing features that allow Easy Notify to get you tons of new emai
 * Integrates with all major email marketing softwares (<em>Pro Version</em>)
 * Full API integration with mailing services (<em>Pro Version</em>)
 * Page level Targeting (different popups for each post/page, turn popup on/off for all page or for few pages/posts)
-* Open Delay (open popup delay in seconds)
+* Open Delay (open popup delay in seconds/minutes/hours/days/weeks/month)
 * Easy to Configuration ( No coding required! )
 * Great Popups Design (many color, many layouts)
 * Highly Customizable!
