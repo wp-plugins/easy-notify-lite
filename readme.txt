@@ -12,7 +12,7 @@ The Best Popup (Lightbox) to display image, video, unlimited content, announceme
 
 == Description ==
 
-The Easy Notify allows you to create visually stunning Popup Message, Notify Box and Optin Form that are optimized for the highest conversion rates.
+The Easy Lightbox Popup allows you to create visually stunning Popup Message, Notify Box and Optin Form that are optimized for the highest conversion rates.
 
 > #### **Why are subscribers important on website?**
 > Website traffic is good for first time visitors. They visit, look around, leave a comment, may be share a link, but they never come back. The thing is, it's hard to get visitors to return to your website without a hook. Luckily, emails newsletters provide just that. When people subscribe to an email newsletter, they're giving you their permission to email them regularly. They're telling you they want to hear from you. And that's just the tip of the iceberg.
@@ -22,7 +22,7 @@ The Easy Notify allows you to create visually stunning Popup Message, Notify Box
 > * [DEMO : Basic Notify and A Simple Announcement](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-basic-notify-and-a-simple-announcement/)
 > * [DEMO : Popup Opt-in ( Subscribe Form )](http://ghozylab.com/plugins/easy-notify-pro/demo/popup-opt-in-subscribe-form/)
 > * [DEMO : Popup with Social Share Buttons](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-social-share-buttons/)
-> * [DEMO : Popup with Custom Text & Button](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-custom-text-button/)
+> * [DEMO : Popup with Call to Action](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-custom-text-button/)
 > * [DEMO : Popup with Video](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-video/)
 
 = PRO VERSION Video =
@@ -42,7 +42,7 @@ Here are the amazing features that allow Easy Notify to get you tons of new emai
 * Image Lightbox Popups
 * Subscription Form - Opt-in (<em>Pro Version</em>)
 * Social Share Button (<em>Pro Version</em>)
-* Custom Button and Text to redirect to specific URL (<em>Pro Version</em>)
+* Call to Action (<em>Pro Version</em>)
 * Integrates with all major email marketing softwares (<em>Pro Version</em>)
 * Full API integration with mailing services (<em>Pro Version</em>)
 * Page level Targeting (different popups for each post/page, turn popup on/off for all page or for few pages/posts)
