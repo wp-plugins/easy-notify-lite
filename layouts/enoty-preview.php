@@ -6,6 +6,14 @@ if ( ! defined('ABSPATH') ) {
 
 function easynotify_preview( $id, $val ) {
 	
+	if ( $val['enoty_cp_thumbsize_swc'] == 'on' ) {
+		$notyw = $val['enoty_cp_thumbsize_tw'];
+		$notyh = $val['enoty_cp_thumbsize_th'];
+		} else {
+			$notyw = 740;
+			$notyh = 'auto';
+			}
+	
 	$offect = explode("-", $val['enoty_cp_open_effect'] );
 	$cffect = explode("-", $val['enoty_cp_close_effect']);
 	
@@ -62,8 +70,8 @@ function easynotify_preview( $id, $val ) {
 						type: 'inline',
 						padding: 0,
 						margin: 60,
-						width: '<?php echo $val['enoty_cp_thumbsize_tw']; ?>',
-						height: '<?php echo $val['enoty_cp_thumbsize_th']; ?>',
+						width: '<?php echo $notyw; ?>',
+						height: '<?php echo $notyh; ?>',
 						transitionIn: '<?php echo $offect[1]; ?>', 
 						transitionOut: '<?php echo $cffect[1]; ?>',
 						autoScale: false,

@@ -158,6 +158,14 @@ function easynotify_ajax_script( $id, $val ) {
 	$offect = explode("-", get_post_meta( $id, 'enoty_cp_open_effect', true ));
 	$cffect = explode("-", get_post_meta( $id, 'enoty_cp_close_effect', true )); 
 	
+	if ( get_post_meta( $id, 'enoty_cp_thumbsize_swc', true ) == 'on' ) {
+		$notyw = get_post_meta( $id, 'enoty_cp_thumbsize_tw', true );
+		$notyh = get_post_meta( $id, 'enoty_cp_thumbsize_th', true );
+		} else {
+			$notyw = 740;
+			$notyh = 'auto';
+			}
+	
 	ob_start(); ?>
     
 	<script type="text/javascript">
@@ -180,8 +188,8 @@ function easynotify_ajax_script( $id, $val ) {
 						type: 'inline',
 						padding: 0,
 						margin: 60,
-						width: '<?php echo get_post_meta( $id, 'enoty_cp_thumbsize_tw', true ); ?>',
-						height: '<?php echo get_post_meta( $id, 'enoty_cp_thumbsize_th', true ); ?>',
+						width: '<?php echo $notyw; ?>',
+						height: '<?php echo $notyh; ?>',
 						transitionIn: '<?php echo $offect[1]; ?>', 
 						transitionOut: '<?php echo $cffect[1]; ?>',
 						autoScale: false,
