@@ -1,7 +1,7 @@
  === Easy Lightbox Popup ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: optin, popup, opt-in, subscribe, optin form, image lightbox, email subscriber, optin monster, popup domination, AJAX, jQuery lightbox, lightbox, wp seo, seo, wordpress seo, ajax form, jquery, wordpress popup, subscribers form, notification, subscribers popup, aweber, mailchimp, madmimi, getresponse, campaign monitor, icontact, constant contact, widget, post, admin, posts, google, twitter, page, images, image, plugin, popup box, popup message, popup window, popups, shortcode
+Tags: optin, popup, opt-in, subscribe, optin form, image lightbox, email subscriber, AJAX, jQuery lightbox, lightbox
 Requires at least: 3.3
 Tested up to: 4.0
 Stable tag: 1.0.9
