@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: optin, popup, lightbox, subscribe, optin form, image, images, email subscriber, seo, subscribe form, best optin form
 Requires at least: 3.3
 Tested up to: 4.0
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -122,6 +122,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.1.0 =
+* Fixed : Help position on bullet list option
+
 = 1.0.9 =
 * Fixed : Admin Bar Notification Placement ( only appear in our custom post type )
 
@@ -142,5 +145,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.0.9 =
-IMPORTANT! Fixed admin bar Upgrade Notify issue, PLEASE UPDATE NOW!
+= 1.1.0 =
+IMPORTANT! Fixed Help position, PLEASE UPDATE NOW!

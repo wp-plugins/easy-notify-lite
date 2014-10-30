@@ -962,7 +962,7 @@ function enoty_metabox_work(){
 				 ),	
 
 			array(
-					'name' => __( 'Bullet List<span data-ppw="550" data-pph="550" data-toload="bullets.html" class="helpicon"></span>', 'easynotify' ),
+					'name' => __( 'Bullet List', 'easynotify' ),
 					'desc' => __( 'Use this option to create the text list of you Notify. Make sure to turn it ON.', 'easynotify' ),
 					'id' => 'enoty_cp_bullet',
 					'type' => 'bullet',
@@ -986,7 +986,7 @@ function enoty_metabox_work(){
 					),	
 					
 			array(
-					'name' => __( 'Bullet List Style & Color', 'easynotify' ),
+					'name' => __( 'Bullet List Style & Color<span data-ppw="550" data-pph="550" data-toload="bullets.html" class="helpicon"></span>', 'easynotify' ),
 					'desc' => __( 'You can change the bullet style and color here. Default: Rounded Blue', 'easynotify' ),
 					'id' => 'enoty_cp_bullet_style_color',
 					'type' => 'select',				
