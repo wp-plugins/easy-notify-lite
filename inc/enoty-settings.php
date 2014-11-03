@@ -433,15 +433,9 @@ $i++;
 <span style="color:#666666;margin-left:2px; font-size:11px;"> Use this button to restore these settings to default.</span></p>
  </div>
 
-
-
 <?php
 }
-?>
-<?php
-
 add_action('admin_menu', 'easynotify_add_admin');
-
 
 /*
 |--------------------------------------------------------------------------
