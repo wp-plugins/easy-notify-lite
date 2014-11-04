@@ -111,8 +111,11 @@ if (!extension_loaded('gd') && !function_exists('gd_info')) {
 /*-------------------------------------------------------------------------------*/
 /*   I18N - LOCALIZATION
 /*-------------------------------------------------------------------------------*/
-load_plugin_textdomain( 'easynotify', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-
+function easynotify_lang_init() {
+	load_plugin_textdomain( 'easynotify', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	}
+	
+add_action( 'init', 'easynotify_lang_init' );
 
 /*-------------------------------------------------------------------------------*/
 /*   LOAD WP jQuery
