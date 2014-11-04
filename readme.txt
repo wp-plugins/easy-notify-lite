@@ -1,7 +1,7 @@
  === Easy Lightbox Popup ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: optin, popup, lightbox, subscribe, optin form, image, images, email subscriber, seo, subscribe form, best optin form
+Tags: optin, popup, lightbox, subscribe, optin form, image, images, plugin, widget, sidebar, email subscriber, seo, subscribe form, best optin form
 Requires at least: 3.3
 Tested up to: 4.0
 Stable tag: 1.1.1
