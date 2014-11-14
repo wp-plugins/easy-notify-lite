@@ -50,6 +50,8 @@ Here are the amazing features that allow Easy Notify to get you tons of new emai
 * Easy to Configuration ( No coding required! )
 * Great Popups Design (many color, many layouts)
 * Highly Customizable!
+* Powered by jQuery
+* Excellent Customer Support (24h)
 
 Pro Version integrates with all major email marketing softwares including:
 
