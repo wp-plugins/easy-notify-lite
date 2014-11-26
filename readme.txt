@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: optin, popup, lightbox, subscribe, best subscribe form, best option form, optin form, image, images, plugin, widget, mailchimp, aweber, getresponse, icontact, mad mimi, constant contact, sidebar, email subscriber, seo, subscribe form, best optin form
 Requires at least: 3.3
 Tested up to: 4.0.1
-Stable tag: 1.1.1
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -124,6 +124,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.1.3 =
+* Added : Featured plugins page
+
 = 1.1.1 =
 * Fixed : The plugin generated 1 characters of unexpected output issue on settings page
 
@@ -150,5 +153,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.1.1 =
+= 1.1.3 =
 IMPORTANT! Fixed Settings Page Issue, PLEASE UPDATE NOW!

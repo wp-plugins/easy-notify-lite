@@ -574,7 +574,7 @@ if (typeof(jQuery().pointer) != 'undefined') {
 /*   DEMO Page
 /*-------------------------------------------------------------------------------*/
 function easynotify_demo_page() {
-    $enoty_demo_page = add_submenu_page('edit.php?post_type=easynotify', 'DEMO', __('DEMO', 'easynotify'), 'edit_posts', 'docs', 'easynotify_demo_video');
+    $enoty_demo_page = add_submenu_page('edit.php?post_type=easynotify', 'DEMO', __('DEMO', 'easynotify'), 'edit_posts', 'easynotify_demo', 'easynotify_demo_video');
 }
 add_action( 'admin_menu', 'easynotify_demo_page' );
 
@@ -626,7 +626,6 @@ function easynotify_news_metabox () {
 echo $new;	
 }
 
-
 /*-------------------------------------------------------------------------------*/
 /*   Comparison Page
 /*-------------------------------------------------------------------------------*/
@@ -635,13 +634,17 @@ function easynotify_create_comparison_page() {
 }
 add_action( 'admin_menu', 'easynotify_create_comparison_page' );
 
-function easynotify_put_compare_style() {
+
+/*-------------------------------------------------------------------------------*/
+/*   Enqueue script/styles based on custom page
+/*-------------------------------------------------------------------------------*/
+function easynotify_enqueue_on_custom_page() {
 	if ( is_admin() && isset( $_GET['page'] ) && $_GET['page'] == 'enoty_comparison' ){
 		wp_enqueue_style( 'enoty-comparison-css' );	
 		wp_enqueue_script( 'enoty-comparison-js' );
 		}
 }
-add_action( 'admin_enqueue_scripts', 'easynotify_put_compare_style' );
+add_action( 'admin_enqueue_scripts', 'easynotify_enqueue_on_custom_page' );
 
 /*-------------------------------------------------------------------------------*/
 /*   Generate Comparison Page

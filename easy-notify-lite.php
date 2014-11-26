@@ -4,7 +4,7 @@ Plugin Name: Easy Notify Lite
 Plugin URI: http://www.ghozylab.com/plugins/easy-notify/
 Description: Easy Notify Lite - Display notify, announcement and subscribe form ( Opt-in ) with very ease, fancy and elegant.
 Author: GhozyLab, Inc.
-Version: 1.1.1
+Version: 1.1.3
 Author URI: http://www.ghozylab.com/
 */
 
@@ -30,7 +30,7 @@ if ( ! defined( 'ENOTIFY_URL' ) ) {
 }
 
 if ( !defined( 'ENOTIFY_VERSION' ) ) {
-	define( 'ENOTIFY_VERSION', '1.1.1' );
+	define( 'ENOTIFY_VERSION', '1.1.3' );
 	}
 
 if ( !defined( 'ENOTIFY_NAME' ) ) {
@@ -326,7 +326,12 @@ add_filter( 'the_excerpt', 'do_shortcode' );
 /*-------------------------------------------------------------------------------*/
 include_once( ENOTIFY_DIR . '/inc/functions/enoty-functions.php' );
 
-
+/*-------------------------------------------------------------------------------*/
+/*   Featured Plugins Page
+/*-------------------------------------------------------------------------------*/
+if ( is_admin() ){
+	require_once( 'inc/enoty-featured.php' );
+	}
 
 
 ?>
