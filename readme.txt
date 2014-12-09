@@ -67,7 +67,7 @@ Pro Version integrates with all major email marketing softwares including:
 The following are other recommended plugins by the author:
 
 * [Easy Media Gallery](http://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
-
+* [Easy Image Slider Widget](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 
 == Installation ==
 
