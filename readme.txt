@@ -124,7 +124,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
-= 1.1.3 =
+= 1.1.5 =
 * Updated : WordPress 4.1 compatibility
 * Fixed : z-index issue on several themes
 
