@@ -1,7 +1,7 @@
  === Easy Lightbox Popup ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: optin, popup, lightbox, subscribe, best subscribe form, best option form, optin form, image, seo, buddypress, nextgen gallery, images, plugin, widget, mailchimp, aweber, getresponse, icontact, mad mimi, constant contact, sidebar, email subscriber, seo, subscribe form, best optin form
+Tags: optin, popup, lightbox, subscribe, best subscribe form, best option form, optin form, image, seo, buddypress, nextgen gallery, images, plugin, widget, mailchimp, aweber, getresponse, icontact, mad mimi, constant contact, sidebar, email subscriber, seo, subscribe form
 Requires at least: 3.3
 Tested up to: 4.1
 Stable tag: 1.1.5
@@ -67,7 +67,7 @@ Pro Version integrates with all major email marketing softwares including:
 The following are other recommended plugins by the author:
 
 * [Easy Media Gallery](http://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
-* [Easy Image Slider Widget](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
+* [Best Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 
 == Installation ==
 
