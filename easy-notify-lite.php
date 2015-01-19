@@ -307,7 +307,9 @@ function easynotify_load_plugin() {
 			}
 
         delete_option( 'Activated_EN_Plugin' );
-		wp_redirect("edit.php?post_type=easynotify&page=enoty_comparison");
+		if ( !is_network_admin() ) {
+			wp_redirect("edit.php?post_type=easynotify&page=enoty_comparison");
+			}
     }
 }
 add_action( 'admin_init', 'easynotify_load_plugin' );
