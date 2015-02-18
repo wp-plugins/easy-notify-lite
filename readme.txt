@@ -1,7 +1,7 @@
  === Easy Lightbox Popup ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: optin, popup form, subscribe, subscribe form, optin form, email subscriber, email subscribe
+Tags: optin, popup form, subscribe, subscribe form, optin form, email subscriber, email subscribe, email registration
 Requires at least: 3.3
 Tested up to: 4.1
 Stable tag: 1.1.5
