@@ -1,10 +1,10 @@
  === Easy Lightbox Popup ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: optin, popup form, subscribe, subscribe form, optin form, email subscriber, email subscribe, email registration
+Tags: optin, popup form, subscribe, subscribe form, optin form, email subscriber, email subscribe, email registration, image, images, widget, post
 Requires at least: 3.3
 Tested up to: 4.1
-Stable tag: 1.1.5
+Stable tag: 1.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -124,6 +124,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.1.7 =
+* Updated : WordPress 4.1.1 compatibility
+
 = 1.1.5 =
 * Updated : WordPress 4.1 compatibility
 * Fixed : z-index issue on several themes
@@ -157,5 +160,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.1.5 =
-IMPORTANT! Fixed z-index Issue, PLEASE UPDATE NOW!
+= 1.1.7 =
+IMPORTANT! WP 4.1.1 Compatibility, PLEASE UPDATE NOW!
