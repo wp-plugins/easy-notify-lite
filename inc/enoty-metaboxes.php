@@ -37,10 +37,15 @@ add_action( 'do_meta_boxes', 'easynotify_customposttype_image_box' );
 					wp_enqueue_script( 'enoty-cookie' );	
 					wp_enqueue_script( 'jquery-ui-slider' );
 					wp_enqueue_script( 'jquery-effects-highlight' );
+					wp_enqueue_style( 'enoty-bootstrap-css' );		
+					wp_enqueue_script( 'enoty-bootstrap-js' );
 					wp_enqueue_style( 'enoty-admin-styles', plugins_url('css/admin.css' , __FILE__ ) );
 					wp_enqueue_script( 'enoty-metascript', plugins_url( 'functions/easynotify-script.js' , __FILE__ ) );
 					wp_enqueue_script( 'enoty-ibutton-js', plugins_url( 'js/jquery/jquery.ibutton.js' , __FILE__ ) );
 					wp_enqueue_style( 'enoty-ibutton-css', plugins_url( 'css/ibutton.css' , __FILE__ ), false, ENOTIFY_VERSION );
+					
+					add_action('admin_footer', 'enoty_upgrade_popup' );
+					
 						}
 					}
 				}
@@ -60,6 +65,18 @@ add_action( 'do_meta_boxes', 'easynotify_customposttype_image_box' );
 		</style>
 		<script>
 		jQuery(document).ready(function($) {
+			
+			 // Upgrade Popup
+ 			$('#notifyprcngtableclr').on( 'click', function() {
+				
+				$("#myModalupgrade").modal({
+					keyboard: false,
+					backdrop: 'static'
+					});
+					return false;
+					
+				});	
+			
 
 			
 		// Help Control	
@@ -1435,5 +1452,102 @@ function enoty_save_meta_box( $post_id ) {
 		}
 }
 add_action( 'save_post', 'enoty_save_meta_box' );
+
+
+function enoty_upgrade_popup() {
+	
+echo '<!-- Modal -->
+<div class="modal fade" id="myModalupgrade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width: 60%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Pricing Table</h4>
+            </div>
+            <div class="modal-body" style="background-color: #f5f5f5;">
+            
+           
+            <div class="row flat"> <!-- Content Start -->
+            
+            
+              <div class="col-lg-3 col-md-3 col-xs-6">
+                <ul class="plan plan1">
+                    <li class="plan-name">
+                        Pro
+                    </li>
+                    <li class="plan-price">
+                        <strong>$'.ENOTY_PRO_PRICE.'</strong>
+                    </li>
+                    <li>
+                        <strong>1 site</strong>
+                    </li>
+                    <li class="plan-action">
+                        <a href="http://ghozylab.com/plugins/ordernow.php?order=enotypro&utm_source=easynotify&utm_medium=editor&utm_campaign=orderfromeditor" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
+                    </li>
+                </ul>
+            </div> 
+            
+              <div class="col-lg-3 col-md-3 col-xs-6"><span class="featured"></span>
+                <ul class="plan plan1">
+                    <li class="plan-name">
+                        Pro+
+                    </li>
+                    <li class="plan-price">
+                        <strong>$'.ENOTY_PRO_PLUS_PRICE.'</strong>
+                    </li>
+                    <li>
+                        <strong>3 sites</strong>
+                    </li>
+                    <li class="plan-action">
+                        <a href="http://ghozylab.com/plugins/ordernow.php?order=enotyproplus&utm_source=easynotify&utm_medium=editor&utm_campaign=orderfromeditor" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
+                    </li>
+                </ul>
+            </div> 
+            
+              <div class="col-lg-3 col-md-3 col-xs-6">
+                <ul class="plan plan1">
+                    <li class="plan-name">
+                        Pro++
+                    </li>
+                    <li class="plan-price">
+                        <strong>$'.ENOTY_PRO_PLUS_PLUS_PRICE.'</strong>
+                    </li>
+                    <li>
+                        <strong>5 sites</strong>
+                    </li>
+                    <li class="plan-action">
+                        <a href="http://ghozylab.com/plugins/ordernow.php?order=enotyproplusplus&utm_source=easynotify&utm_medium=editor&utm_campaign=orderfromeditor" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
+                    </li>
+                </ul>
+            </div>
+			
+              <div class="col-lg-3 col-md-3 col-xs-6">
+                <ul class="plan plan1">
+                    <li class="plan-name">
+                        Developer
+                    </li>
+                    <li class="plan-price">
+                        <strong>Contact Us</strong>
+                    </li>
+                    <li>
+                        <strong>+15 sites</strong>
+                    </li>
+                    <li class="plan-action">
+                        <a href="http://ghozylab.com/plugins/submit-support-request/#tab-1399384216-2-4" target="_blank" class="btn btn-danger btn-lg">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            
+            </div><!-- Content End  --> 
+            
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!--  END HTML (to Trigger Modal) -->';	
+	
+	
+}
 
 ?>

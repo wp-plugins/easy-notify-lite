@@ -32,6 +32,9 @@ function easynotify_reg_script() {
 	wp_register_script( 'enoty-comparison-js', plugins_url( 'js/compare.js' , dirname(__FILE__) ) );
 	wp_register_style( 'enoty-comparison-css', plugins_url( 'css/compare.css' , dirname(__FILE__) ), false, ENOTIFY_VERSION );
 	
+	wp_register_script( 'enoty-bootstrap-js', plugins_url( 'js/bootstrap/bootstrap.min.js' , dirname(__FILE__) ) );
+	wp_register_style( 'enoty-bootstrap-css', plugins_url( 'css/bootstrap/css/bootstrap.min.css' , dirname(__FILE__) ), false, ENOTIFY_VERSION );
+		
 	}
 		
 add_action( 'admin_init', 'easynotify_reg_script' );
@@ -375,7 +378,7 @@ echo $enotyprev;
 /*-------------------------------------------------------------------------------*/
 function easynotify_upgrade_metabox () {
 	$enobuy = '<div style="text-align:center;">';
-	$enobuy .= '<a style="outline: none !important;" href="http://ghozylab.com/plugins/pricing/#tab-1408601400-2-44" target="_blank"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/buy-now.png' , dirname(__FILE__) ).'" width="241" height="95" alt="Buy Now!" ></a>';
+	$enobuy .= '<a id="notifyprcngtableclr" style="outline: none !important;" href="#"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/buy-now.png' , dirname(__FILE__) ).'" width="241" height="95" alt="Buy Now!" ></a>';
 	$enobuy .= '</div>';
 echo $enobuy;	
 }
