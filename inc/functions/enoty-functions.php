@@ -374,6 +374,17 @@ echo $enotyprev;
 
 
 /*-------------------------------------------------------------------------------*/
+/*  Create New Plugin Metabox @since > 1.1.7
+/*-------------------------------------------------------------------------------*/
+function easynotify_new_plug_metabox () {
+	$enonew = '<div style="text-align:center;">';
+	$enonew .= '<a style="outline: none !important;" href="http://goo.gl/divK5t" target="_blank"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/new-plugin.png' , dirname(__FILE__) ).'" width="241" height="151" alt="New Plugin" ></a>';
+	$enonew .= '</div>';
+echo $enonew;	
+}
+
+
+/*-------------------------------------------------------------------------------*/
 /*  Create Upgrade Metabox
 /*-------------------------------------------------------------------------------*/
 function easynotify_upgrade_metabox () {
@@ -625,7 +636,8 @@ function easynotify_demo_video() {
 function easynotify_news_metabox () {
 	$new = '<div style="text-align:center;">';
 	$new .= '<a style="outline: none !important;" href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=easynotifylite&utm_medium=demopage&utm_campaign=linkfromdemopage" target="_blank"><img style="cursor:pointer; margin-top: 7px; margin-bottom: 7px;" src="'.plugins_url( 'images/easy-media-gallery.png' , dirname(__FILE__) ).'" width="300" height="250" alt="Best Gallery Plugin!" ></a>';
-	$new .= '</div>';
+	$new .= '<a style="outline: none !important;" href="http://goo.gl/divK5t" target="_blank"><img style="cursor:pointer; margin-top: 7px; margin-bottom: 7px;" src="'.plugins_url( 'images/best-contact-form-plugin.png' , dirname(__FILE__) ).'" width="300" height="188" alt="Best Gallery Plugin!" ></a>';
+	$new .= '</div><br>';
 echo $new;	
 }
 
