@@ -10,6 +10,7 @@ function easynotify_customposttype_image_box() {
 			add_meta_box( 'notybuydiv', __( 'Upgrade to Pro Version' ), 'easynotify_upgrade_metabox', 'easynotify', 'side', 'default' );
 		}
 	add_meta_box( 'notyrevdiv', __( 'Preview' ), 'easynotify_preview_metabox', 'easynotify', 'side', 'default' );
+	add_meta_box( 'notynewdiv', __( 'New Plugin' ), 'easynotify_new_plug_metabox', 'easynotify', 'side', 'default' );
 
 
 }
@@ -59,6 +60,7 @@ add_action( 'do_meta_boxes', 'easynotify_customposttype_image_box' );
 					?>
                     
                      <style type="text/css" media="screen">
+					 #minor-publishing {display: none !important }
 		@media only screen and (min-width: 1150px) {	
 		    #side-sortables.fixed { position: fixed; top: 55px; right: 20px; width: 280px; }
 		}	
