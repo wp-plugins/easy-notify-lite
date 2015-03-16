@@ -827,9 +827,10 @@ function easynotify_rate_notify() {
 	}
 }
 
+/*
 if ( enoty_get_option( 'easynotify_disen_admnotify' ) == '1' ) {
 	add_action( 'admin_notices', 'easynotify_rate_notify', 1 );
 	}
-
+*/
 	 
 ?>
