@@ -74,7 +74,7 @@ div#enoty_metaboxmediastyle.postbox td {padding-left: 20px;}
 .enoty-sc-metabox {
 	background: #0678CC;
 	width:230px;
-	height:21px;
+	height:auto;
 	font-size:16px !important;
 	font-weight:bold;
 	font-family:Verdana, Geneva, sans-serif !important;
@@ -380,8 +380,8 @@ display:inline-block;
 .enoty_layout_overlay{
 	display: inline-block; 
 	margin: 0 15px 15px 0;
-	width: 90px;
-	height: 60px;
+	width: 93px;
+	height: 63px;
 	border: 2px solid #ccc;
 	text-align: center; 
 	cursor: pointer;
