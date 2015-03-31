@@ -297,9 +297,9 @@ function easynotify_load_plugin() {
 
     if ( is_admin() && get_option( 'Activated_EN_Plugin' ) == 'enoty-activate' ) {
 		
-		$emg_optval = get_option( 'easynotify_opt' );
+		$enoty_optval = get_option( 'easynotify_opt' );
 		
-		if ( !is_array( $emg_optval ) ) update_option( 'easynotify_opt', array() );		
+		if ( !is_array( $enoty_optval ) ) update_option( 'easynotify_opt', array() );		
 		
 		$tmp = get_option( 'easynotify_opt' );
 		if ( isset( $tmp['easynotify_deff_init'] ) != '1' ) {
@@ -332,8 +332,51 @@ include_once( ENOTIFY_DIR . '/inc/functions/enoty-functions.php' );
 /*   Featured Plugins Page
 /*-------------------------------------------------------------------------------*/
 if ( is_admin() ){
+	require_once( 'inc/enoty-freeplugins.php' );
 	require_once( 'inc/enoty-featured.php' );
 	}
+	
+/*
+|--------------------------------------------------------------------------
+| PLUGIN AUTO UPDATE
+|--------------------------------------------------------------------------
+*/
+$enoty_is_auto_update = enoty_get_option( 'easynotify_disen_autoupdt' );
+
+switch ( $enoty_is_auto_update ) {
+	
+	case '1':
+		if ( !wp_next_scheduled( "enoty_auto_update" ) ) {
+			wp_schedule_event( time(), "daily", "enoty_auto_update" );
+			}
+		add_action( "enoty_auto_update", "plugin_enoty_auto_update" );
+	break;
+	
+	case '':
+		wp_clear_scheduled_hook( "enoty_auto_update" );
+	break;
+					
+}	
+		
+function plugin_enoty_auto_update() {
+	try
+	{
+		require_once( ABSPATH . "wp-admin/includes/class-wp-upgrader.php" );
+		require_once( ABSPATH . "wp-admin/includes/misc.php" );
+		define( "FS_METHOD", "direct" );
+		require_once( ABSPATH . "wp-includes/update.php" );
+		require_once( ABSPATH . "wp-admin/includes/file.php" );
+		wp_update_plugins();
+		ob_start();
+		$plugin_upg = new Plugin_Upgrader();
+		$plugin_upg->upgrade( "easy-notify-lite/easy-notify-lite.php" );
+		$output = @ob_get_contents();
+		@ob_end_clean();
+	}
+	catch(Exception $e)
+	{
+	}
+}
 
 
 ?>

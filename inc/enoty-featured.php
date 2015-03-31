@@ -3,7 +3,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 function easynotify_featured_init() {
-    $easynotify_featured_page = add_submenu_page('edit.php?post_type=easynotify', 'Featured Plugins', __('Featured Plugins', 'easynotify'), 'edit_posts', 'enoty_featured_plugins', 'easynotify_featured_page');
+    $easynotify_featured_page = add_submenu_page('edit.php?post_type=easynotify', 'Premium Plugins', __('Premium Plugins', 'easynotify'), 'edit_posts', 'enoty_featured_plugins', 'easynotify_featured_page');
 }
 add_action( 'admin_menu', 'easynotify_featured_init' );
 
@@ -12,7 +12,7 @@ function easynotify_featured_page() {
 	ob_start(); ?>
 	<div class="wrap" id="ghozy-featured">
 		<h2>
-			<?php _e( 'GhozyLab Featured Plugins', 'easynotify' ); ?>
+			<?php _e( 'GhozyLab Premium Plugins', 'easynotify' ); ?>
 		</h2>
 		<p><?php _e( 'These plugins available on Lite and Pro version.', 'easynotify' ); ?></p>
 		<?php echo easynotify_get_feed(); ?>
