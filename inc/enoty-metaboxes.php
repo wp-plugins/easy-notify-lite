@@ -10,7 +10,7 @@ function easynotify_customposttype_image_box() {
 			add_meta_box( 'notybuydiv', __( 'Upgrade to Pro Version' ), 'easynotify_upgrade_metabox', 'easynotify', 'side', 'default' );
 		}
 	add_meta_box( 'notyrevdiv', __( 'Preview' ), 'easynotify_preview_metabox', 'easynotify', 'side', 'default' );
-	add_meta_box( 'notynewdiv', __( 'New Plugin' ), 'easynotify_new_plug_metabox', 'easynotify', 'side', 'default' );
+	//add_meta_box( 'notynewdiv', __( 'New Plugin' ), 'easynotify_new_plug_metabox', 'easynotify', 'side', 'default' );
 
 
 }
