@@ -3,7 +3,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 function easynotify_rec_init() {
-    $easynotify_featured_page = add_submenu_page('edit.php?post_type=easynotify', 'Free Plugins', __('Free Install Plugins', 'easynotify'), 'edit_posts', 'easynotify_free_plugins', 'easynotify_free_plugin_page');
+    $easynotify_featured_page = add_submenu_page('edit.php?post_type=easynotify', 'Free Install Plugins', __('Free Install Plugins', 'easynotify'), 'edit_posts', 'easynotify_free_plugins', 'easynotify_free_plugin_page');
 }
 add_action( 'admin_menu', 'easynotify_rec_init' );
 
