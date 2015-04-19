@@ -1,4 +1,4 @@
- === Easy Lightbox Popup ===
+ === Easy Notify Lite ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: optin, form, email, subscribe, subscribe form, optin form, email subscribe, email registration, image, images, widget, post
@@ -12,7 +12,7 @@ The Best Popup (Lightbox) to display image, video, unlimited content, announceme
 
 == Description ==
 
-The Easy Lightbox Popup allows you to create visually stunning Popup Message, Notify Box and Optin Form that are optimized for the highest conversion rates.
+The Easy Notify Lite allows you to create visually stunning Popup Message, Notify Box and Optin Form that are optimized for the highest conversion rates.
 
 > #### **Why are subscribers important on website?**
 > Website traffic is good for first time visitors. They visit, look around, leave a comment, may be share a link, but they never come back. The thing is, it's hard to get visitors to return to your website without a hook. Luckily, emails newsletters provide just that. When people subscribe to an email newsletter, they're giving you their permission to email them regularly. They're telling you they want to hear from you. And that's just the tip of the iceberg.
@@ -74,7 +74,7 @@ The following are other recommended plugins by the author:
 
 = For automatic installation: =
 
-The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy Lightbox Popup' in the search field.
+The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy Notify Lite' in the search field.
 
 = For manual installation 1: =
 
