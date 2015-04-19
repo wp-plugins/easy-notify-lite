@@ -14,7 +14,7 @@ function easynotify_featured_page() {
 		<h2>
 			<?php _e( 'GhozyLab Premium Plugins', 'easynotify' ); ?>
 		</h2>
-		<p><?php _e( 'These plugins available on Lite and Pro version.', 'easynotify' ); ?></p>
+		<p><?php _e( 'These plugins available on Lite and Pro version. You can download the trial version <a href="'.admin_url( 'edit.php?post_type=easynotify&page=easynotify_free_plugins' ).'">here</a>', 'easynotify' ); ?></p>
 		<?php echo easynotify_get_feed(); ?>
 	</div>
 	<?php
