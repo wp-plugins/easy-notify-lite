@@ -832,5 +832,79 @@ if ( enoty_get_option( 'easynotify_disen_admnotify' ) == '1' ) {
 	add_action( 'admin_notices', 'easynotify_rate_notify', 1 );
 	}
 */
+
+
+/*-------------------------------------------------------------------------------*/
+/*  Update Notify
+/*-------------------------------------------------------------------------------*/
+function enoty_update_notify() {
+	
+    global $post;
+		if ( 'easynotify' === $post->post_type && is_admin() ) {
+	
+    ?>
+    <div class="error enoty-setupdate">
+        <p><?php _e( 'We recommend you to enable plugin Auto Update so you\'ll get the latest features and other important updates from <strong>'.ENOTIFY_NAME.'</strong>.<br />Click <a href="#"><strong><span id="enotydoautoupdate">here</span></strong></a> to enable Auto Update.', 'easynotify' ); ?></p>
+    </div>
+    
+<script type="text/javascript">
+	/*<![CDATA[*/
+	/* Easy Media Gallery */
+jQuery(document).ready(function(){
+	jQuery('#enotydoautoupdate').click(function(){
+		var cmd = 'active';
+		enoty_enable_auto_update(cmd);
+	});
+
+function enoty_enable_auto_update(act) {
+	var data = {
+		action: 'enoty_enable_auto_update',
+		security: '<?php echo wp_create_nonce( "enoty-update-nonce"); ?>',
+		cmd: act,
+		};
+		
+		jQuery.post(ajaxurl, data, function(response) {
+			if (response == 1) {
+				alert('Great! Auto Update successfully activated.');
+				jQuery('.enoty-setupdate').fadeOut('3000');
+				}
+				else {
+				alert('Ajax request failed, please refresh your browser window.');
+				}
+				
+			});
+	}
+	
+});
+	
+/*]]>*/</script>
+    
+    <?php
+	
+	}
+}
+
+function enoty_enable_auto_update() {
+	
+	check_ajax_referer( 'enoty-update-nonce', 'security' );
+	
+	if ( !isset( $_POST['cmd'] ) ) {
+		echo '0';
+		wp_die();
+		}
+		
+		else {
+			if ( $_POST['cmd'] == 'active' ){
+				$enoty_upd_opt = get_option('easynotify_opt');
+				$enoty_upd_opt['easynotify_disen_autoupdt'] = '1';
+				update_option('easynotify_opt', $enoty_upd_opt);	
+				echo '1';			
+				wp_die();
+				}
+	}
+}
+add_action( 'wp_ajax_enoty_enable_auto_update', 'enoty_enable_auto_update' );
+
+
 	 
 ?>
