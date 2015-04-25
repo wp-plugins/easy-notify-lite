@@ -15,7 +15,7 @@ function enoty_aff_admin_notice() {
         	/* Check that the user hasn't already clicked to ignore the message */
    	 		if ( ! get_user_meta($user_id, 'enoty_ignore_notice') ) {
        	 		echo '<div class="updated"><p>'; 
-        		printf(__('Earn <span style="color: red;">EXTRA MONEY</span> and get 30&#37; affiliate share from every sale you make!&nbsp;&nbsp;<a href="http://ghozylab.com/plugins/affiliate-program/" target="_blank">JOIN GHOZYLAB AFFILIATE PROGRAM NOW!</a><span style="float: right;"><a href="%1$s">Hide Notice</a><span>'), '?enoty_nag_ignore=0');
+        		printf(__('Earn <span style="color: red;">EXTRA MONEY</span> and get 30&#37; affiliate share from every sale you make!&nbsp;&nbsp;<a href="http://goo.gl/eBePWy" target="_blank">JOIN GHOZYLAB AFFILIATE PROGRAM NOW!</a><span style="float: right;"><a href="%1$s">Hide Notice</a><span>'), '?enoty_nag_ignore=0');
         		echo "</p></div>";
     			}
 			}

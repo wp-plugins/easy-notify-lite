@@ -3,7 +3,7 @@ Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: optin, form, email, subscribe, subscribe form, optin form, email subscribe, email registration, image, images, widget, admin
 Requires at least: 3.3
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 1.1.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -66,7 +66,7 @@ Pro Version integrates with all major email marketing softwares including:
 = Recommended Plugins =
 The following are other recommended plugins by the author:
 
-* [Easy Media Gallery](https://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
+* [Best Gallery Plugin](https://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
 * [Best Contact Form](https://wordpress.org/plugins/contact-form-lite/) - The Best Contact Form Plugin to create awesome Contact Form in minutes.
 * [Best Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 
