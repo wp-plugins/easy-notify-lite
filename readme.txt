@@ -19,11 +19,11 @@ The Easy Notify Lite allows you to create visually stunning Popup Message, Notif
 
 > #### **Live Demos**
 
-> * [DEMO : Basic Notify and A Simple Announcement -  ( Lite & Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-basic-notify-and-a-simple-announcement/)
-> * [DEMO : Popup Opt-in ( Subscribe Form ) - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/popup-opt-in-subscribe-form/)
-> * [DEMO : Popup with Social Share Buttons - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-social-share-buttons/)
-> * [DEMO : Popup with Call to Action - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-custom-text-button/)
-> * [DEMO : Popup with Video - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-video/)
+> * [DEMO : Basic Notify and A Simple Announcement -  ( Lite & Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-basic-notify-and-a-simple-announcement/ "optin form plugin")
+> * [DEMO : Popup Opt-in ( Subscribe Form ) - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/popup-opt-in-subscribe-form/ "best email subscribe plugin")
+> * [DEMO : Popup with Social Share Buttons - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-social-share-buttons/ "best email registration plugin")
+> * [DEMO : Popup with Call to Action - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-custom-text-button/ "subscribe form plugin")
+> * [DEMO : Popup with Video - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-video/ "email plugin")
 
 = PRO VERSION Video =
 <p></p>
