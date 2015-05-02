@@ -12,7 +12,7 @@ The Best Popup (Lightbox) to display image, video, unlimited content, announceme
 
 == Description ==
 
-The Easy Notify Lite allows you to create visually stunning Popup Message, Notify Box and Optin Form that are optimized for the highest conversion rates.
+The Easy Notify Lite allows you to create visually stunning Popup Message, Notify Box and [Optin Form](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-basic-notify-and-a-simple-announcement/ "Optin plugin") that are optimized for the highest conversion rates.
 
 > #### **Why are subscribers important on website?**
 > Website traffic is good for first time visitors. They visit, look around, leave a comment, may be share a link, but they never come back. The thing is, it's hard to get visitors to return to your website without a hook. Luckily, emails newsletters provide just that. When people subscribe to an email newsletter, they're giving you their permission to email them regularly. They're telling you they want to hear from you. And that's just the tip of the iceberg.
@@ -35,7 +35,7 @@ The Easy Notify Lite allows you to create visually stunning Popup Message, Notif
 
 = Features =
 
-Here are the amazing features that allow Easy Notify to get you tons of new email subscribers.
+Here are the amazing features that allow Easy Notify to get you tons of new **email subscribers**.
 
 * Unlimited Popup / Form
 * Notify Lightbox Popups
@@ -55,20 +55,27 @@ Here are the amazing features that allow Easy Notify to get you tons of new emai
 
 Pro Version integrates with all major email marketing softwares including:
 
-* Aweber
-* MailChimp
-* Getresponse
-* Campaign Monitor
-* iContact
-* Mad Mimi
-* Constant Contact
+* **Aweber**
+* **MailChimp**
+* **Getresponse**
+* **Campaign Monitor**
+* **iContact**
+* **Mad Mimi**
+* **Constant Contact**
 
 = Recommended Plugins =
 The following are other recommended plugins by the author:
 
-* [Best Gallery Plugin](https://wordpress.org/plugins/easy-media-gallery/) - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
-* [Best Contact Form](https://wordpress.org/plugins/contact-form-lite/) - The Best Contact Form Plugin to create awesome Contact Form in minutes.
-* [Best Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
+* [Best Gallery Plugin](https://wordpress.org/plugins/easy-media-gallery/ "gallery plugin") - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
+* [Best Contact Form](https://wordpress.org/plugins/contact-form-lite/ "contact form plugin") - The Best Contact Form Plugin to create awesome Contact Form in minutes.
+* [Best Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/ "slider plugin") - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
+
+> #### **NOTE**
+> If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" title="Translating WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://ghozylab.com" title="GhozyLab" target="_blank">GhozyLab</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" title="Download Poedit" target="_blank">Poedit</a>.
+
+= Technical Support =
+
+If any problem occurs or if you think, that you found a bug please contact us at [info@ghozylab.com](mailto:info@ghozylab.com).
 
 == Installation ==
 
