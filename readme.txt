@@ -12,10 +12,7 @@ The Best Popup (Lightbox) to display image, video, unlimited content, announceme
 
 == Description ==
 
-The Easy Notify Lite allows you to create visually stunning Popup Message, Notify Box and [Optin Form](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-basic-notify-and-a-simple-announcement/ "Optin plugin") that are optimized for the highest conversion rates.
-
-> #### **Why are subscribers important on website?**
-> Website traffic is good for first time visitors. They visit, look around, leave a comment, may be share a link, but they never come back. The thing is, it's hard to get visitors to return to your website without a hook. Luckily, emails newsletters provide just that. When people subscribe to an email newsletter, they're giving you their permission to email them regularly. They're telling you they want to hear from you. And that's just the tip of the iceberg.
+The Easy Notify Lite allows you to create visually stunning Popup Message, Notify Box and [Optin Form](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-basic-notify-and-a-simple-announcement/ "Optin plugin") ( _Pro Version_ ) that are optimized for the highest conversion rates.
 
 > #### **Live Demos**
 
@@ -62,6 +59,9 @@ Pro Version integrates with all major email marketing softwares including:
 * **iContact**
 * **Mad Mimi**
 * **Constant Contact**
+
+> #### **Why are subscribers important on website?**
+> Website traffic is good for first time visitors. They visit, look around, leave a comment, may be share a link, but they never come back. The thing is, it's hard to get visitors to return to your website without a hook. Luckily, emails newsletters provide just that. When people subscribe to an email newsletter, they're giving you their permission to email them regularly. They're telling you they want to hear from you. And that's just the tip of the iceberg.
 
 = Recommended Plugins =
 The following are other recommended plugins by the author:
