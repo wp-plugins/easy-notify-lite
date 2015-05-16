@@ -8,7 +8,7 @@ Stable tag: 1.1.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The Best Popup (Lightbox) to display image, video, unlimited content, announcement and subscribe form with very ease, fancy and elegant.
+The Best Popup (Lightbox) to display image, video, announcement and subscribe form with very ease and elegant.
 
 == Description ==
 
