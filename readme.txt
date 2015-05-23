@@ -1,7 +1,7 @@
  === Easy Notify Lite ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: optin, form, email, subscribe, subscribe form, optin form, email subscribe, email registration, image, images, widget, admin
+Tags: optin, form, email, subscribe, subscribe form, optin form, email subscribe, email registration, image, images, widget, admin, aweber, mailchimp, getresponse, mad mimi, mail, mailer, gallery, email form, form email
 Requires at least: 3.3
 Tested up to: 4.2.2
 Stable tag: 1.1.9
@@ -21,14 +21,6 @@ The Easy Notify Lite allows you to create visually stunning Popup Message, Notif
 > * [DEMO : Popup with Social Share Buttons - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-social-share-buttons/ "best email registration plugin")
 > * [DEMO : Popup with Call to Action - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-custom-text-button/ "subscribe form plugin")
 > * [DEMO : Popup with Video - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-video/ "email plugin")
-
-= PRO VERSION Video =
-<p></p>
-<p>http://www.youtube.com/watch?v=Q0cW7bLzuhw</p>
-
-= LITE VERSION Video =
-<p></p>
-<p>http://www.youtube.com/watch?v=Kss5x7f5DiY</p>
 
 = Features =
 
@@ -62,6 +54,14 @@ Pro Version integrates with all major email marketing softwares including:
 
 > #### **Why are subscribers important on website?**
 > Website traffic is good for first time visitors. They visit, look around, leave a comment, may be share a link, but they never come back. The thing is, it's hard to get visitors to return to your website without a hook. Luckily, emails newsletters provide just that. When people subscribe to an email newsletter, they're giving you their permission to email them regularly. They're telling you they want to hear from you. And that's just the tip of the iceberg.
+
+= PRO VERSION Video =
+<p></p>
+<p>http://www.youtube.com/watch?v=Q0cW7bLzuhw</p>
+
+= LITE VERSION Video =
+<p></p>
+<p>http://www.youtube.com/watch?v=Kss5x7f5DiY</p>
 
 = Recommended Plugins =
 The following are other recommended plugins by the author:
