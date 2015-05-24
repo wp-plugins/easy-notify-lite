@@ -10,7 +10,7 @@ add_action('admin_notices', 'enoty_aff_admin_notice');
 
 function enoty_aff_admin_notice() {
     global $current_user, $post;
-		if ( 'easynotify' === $post->post_type && is_admin() ) {
+		if ( !empty( $post ) && 'easynotify' === $post->post_type && is_admin() ) {
         	$user_id = $current_user->ID;
         	/* Check that the user hasn't already clicked to ignore the message */
    	 		if ( ! get_user_meta($user_id, 'enoty_ignore_notice') ) {
