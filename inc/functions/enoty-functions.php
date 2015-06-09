@@ -840,7 +840,7 @@ if ( enoty_get_option( 'easynotify_disen_admnotify' ) == '1' ) {
 function enoty_update_notify() {
 	
     global $post;
-		if ( 'easynotify' === $post->post_type && is_admin() ) {
+		if ( !empty( $post ) && 'easynotify' === $post->post_type && is_admin() ) {
 	
     ?>
     <div class="error enoty-setupdate">
