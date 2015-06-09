@@ -32,6 +32,7 @@ Here are the amazing features that allow Easy Notify to get you tons of new **em
 * Subscription Form - Opt-in (<em>Pro Version</em>)
 * Social Share Button (<em>Pro Version</em>)
 * Call to Action (<em>Pro Version</em>)
+* Embed Youtube / Vimeo (Pro Version)
 * Integrates with all major email marketing softwares (<em>Pro Version</em>)
 * Full API integration with mailing services (<em>Pro Version</em>)
 * Page level Targeting (different popups for each post/page, turn popup on/off for all page or for few pages/posts)
