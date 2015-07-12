@@ -1,14 +1,14 @@
  === Easy Notify Lite ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: optin, form, email, subscribe, subscribe form, optin form, email subscribe, email registration, image, images, widget, admin, aweber, mailchimp, getresponse, mad mimi, mail, mailer, gallery, email form, form email
+Tags: optin, form, email, subscribe, subscribe form, subscribers, email marketing, optin form, email list, get response, optin monster, email subscribe, email optin, optin email, lading page, email registration, image, images, widget, admin, aweber, mailchimp, getresponse, mad mimi, mail, mailer, gallery, email form, form email
 Requires at least: 3.3
 Tested up to: 4.2.2
-Stable tag: 1.1.9
+Stable tag: 1.1.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The Best Popup (Lightbox) to display image, video, announcement and subscribe form with very ease and elegant.
+The Best Lightbox Popup to display image, video, notify or announcement with very ease and elegant.
 
 == Description ==
 
@@ -133,6 +133,11 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.1.10 =
+* Updated : WordPress 4.2.2 compatibility
+* Updated : Disable Affiliate link on Notify editor
+* Fixed : Many other PHP and CSS clean and optimization
+
 = 1.1.9 =
 * Fixed : Many other PHP and CSS clean and optimization
 
@@ -170,7 +175,13 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 = 1.0.0 =
 * This is the launch version. No changes yet.
 
+==Easy Notify Lite step by step guide==
+
+There are no complicated instructions for using Easy Notify Lite plugin because this Notify plugin designed to make all easy. Please watch the following video and we believe that you will easily to understand it just in minutes :
+
+[youtube https://www.youtube.com/watch?v=Kss5x7f5DiY]
+
 == Upgrade Notice ==
 
-= 1.1.9 =
-IMPORTANT! Added Important Link, PLEASE UPDATE NOW!
+= 1.1.10 =
+IMPORTANT! Added New Options, PLEASE UPDATE NOW!

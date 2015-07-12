@@ -6,7 +6,7 @@ if( enoty_get_option( 'easynotify_disen_autoupdt' ) != '1' ) {
 	add_action( 'admin_notices', 'enoty_update_notify' );
 	}
 
-add_action('admin_notices', 'enoty_aff_admin_notice');
+//add_action('admin_notices', 'enoty_aff_admin_notice');
 
 function enoty_aff_admin_notice() {
     global $current_user, $post;

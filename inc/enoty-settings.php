@@ -407,6 +407,81 @@ case 'pattern':
 
 
 <?php break;
+
+
+case 'mailmanager':
+?>
+
+<div class="eno_input eno_select <?php if ( isset( $enval['group'] ) ) { echo $enval['group']; } ?>">
+	<label for="<?php echo $enval['id']; ?>"><?php echo $enval['name']; ?></label>
+	
+<select name="<?php echo $enval['id']; ?>" id="<?php echo $enval['id']; ?>">
+<?php foreach ( $enval['options'] as $key => $option ) { ?>
+		<option value="<?php echo $key; ?>" <?php if ( enoty_get_option( $enval['id'] ) == $key ) { echo 'selected="selected"'; } ?>><?php echo $option; ?></option><?php } ?>
+</select>
+
+	<small><?php echo $enval['desc']; ?></small><div class="clearfix"></div>
+</div>
+<?php
+break;
+
+case 'selectmmlist':
+?>
+
+<div class="eno_input eno_select <?php if ( isset( $enval['group'] ) ) { echo $enval['group']; } ?>">
+	<label for="<?php echo $enval['id']; ?>"><?php echo $enval['name']; ?></label>
+    <select style="width: 195px; margin-right: 5px;" name="<?php echo $enval['id']; ?>" id="<?php echo $enval['id']; ?>">
+	<?php
+
+		if ( enoty_get_option( $enval['id'] ) ) {
+			$listdata = explode ( "|", enoty_get_option( $enval['id'] ) );
+			echo '<option value="'.enoty_get_option( $enval['id'] ).'">'.$listdata[1].'</option>';
+			} else {
+				echo '<option value="none">None</option>'; 
+				}
+		?>
+		</select>
+        <span class="button grablist" data-provider="<?php if ( isset( $enval['group'] ) ) { echo $enval['group']; } ?>">Grab Lists</span>
+	<small><?php echo $enval['desc']; ?></small><div class="clearfix"></div>
+</div>
+<?php
+break;
+
+case 'textareaauth':
+
+$is_auth = get_option('easy_notify_pro_aweber_auth_info');
+if ( $is_auth ) {
+		$style = ' display:none;';
+		$textdis = 'readonly';
+		$stdisc = '';
+	} else {
+		$style = '';
+		$stdisc = ' display:none;';
+		$textdis = '';
+		
+	}
+?>
+<div class="eno_input eno_textarea <?php if ( isset( $enval['group'] ) ) { echo $enval['group']; } ?>">
+	<label for="<?php echo $enval['id']; ?>"><?php echo $enval['name']; ?></label>
+ 	<textarea <?php echo $textdis; ?> id="<?php echo $enval['id']; ?>" style="vertical-align:top !important;" name="<?php echo $enval['id']; ?>" type="<?php echo $enval['type']; ?>" cols="" rows=""><?php if ( enoty_get_option( $enval['id'] ) != "") { echo stripslashes(enoty_get_option( $enval['id'] ) ); } else { echo $enval['std']; } ?></textarea>
+ <small><?php echo $enval['desc']; ?><span style="text-align: center; margin-top:15px;<?php echo $style; ?>" class="button-primary awconnect" data-provider="<?php if ( isset( $enval['group'] ) ) { echo $enval['group']; } ?>">Connect to Aweber</span><span style="text-align: center; margin-top:15px;<?php echo $stdisc; ?>" class="button-primary awdisconnect" data-provider="<?php if ( isset( $enval['group'] ) ) { echo $enval['group']; } ?>">Disconnect</span></small><div class="clearfix"></div>
+ </div>
+  
+<?php
+break;
+
+case 'textpass':
+?>
+
+<div class="eno_input eno_text <?php if ( isset( $enval['group'] ) ) { echo $enval['group']; } ?>">
+	<label for="<?php echo $enval['id']; ?>"><?php echo $enval['name']; ?></label>
+ 	<input name="<?php echo $enval['id']; ?>" id="<?php echo $enval['id']; ?>" type="password" value="<?php if ( enoty_get_option( $enval['id'] ) != "") { echo stripslashes( enoty_get_option( $enval['id'] )  ); } else { echo $enval['std']; } ?>" />
+ <small><?php echo $enval['desc']; ?></small><div class="clearfix"></div>
+ 
+ </div>
+<?php
+break;
+
 case "section":
 $i++;
 ?>

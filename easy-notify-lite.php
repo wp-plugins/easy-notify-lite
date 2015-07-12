@@ -2,9 +2,9 @@
 /*
 Plugin Name: Easy Notify Lite
 Plugin URI: http://www.ghozylab.com/plugins/easy-notify/
-Description: Easy Notify Lite - Display notify, announcement and subscribe form ( Opt-in ) with very ease, fancy and elegant.
+Description: Easy Notify Lite - Display notify, announcement and subscribe form ( Opt-in ) with very ease, fancy and elegant.<a href="http://ghozylab.com/plugins/pricing/#tab-1408601400-2-44" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.1.9
+Version: 1.1.10
 Author URI: http://www.ghozylab.com/
 */
 
@@ -30,7 +30,7 @@ if ( ! defined( 'ENOTIFY_URL' ) ) {
 }
 
 if ( !defined( 'ENOTIFY_VERSION' ) ) {
-	define( 'ENOTIFY_VERSION', '1.1.9' );
+	define( 'ENOTIFY_VERSION', '1.1.10' );
 	}
 
 if ( !defined( 'ENOTIFY_NAME' ) ) {
