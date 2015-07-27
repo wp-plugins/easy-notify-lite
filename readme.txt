@@ -3,7 +3,7 @@ Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: optin, form, email, subscribe, subscribe form, subscribers, email marketing, optin form, email list, get response, optin monster, email subscribe, email optin, optin email, lading page, email registration, image, images, widget, admin, aweber, mailchimp, getresponse, mad mimi, mail, mailer, gallery, email form, form email
 Requires at least: 3.3
-Tested up to: 4.2.2
+Tested up to: 4.2.3
 Stable tag: 1.1.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
