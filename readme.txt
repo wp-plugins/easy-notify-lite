@@ -1,14 +1,14 @@
  === Easy Notify Lite ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: optin, form, email, subscribe, subscribe form, subscribers, email marketing, optin form, email list, get response, optin monster, email subscribe, email optin, optin email, lading page, email registration, image, images, widget, admin, aweber, mailchimp, getresponse, mad mimi, mail, mailer, gallery, email form, form email
+Tags: optin, form, email, subscribe, form subscribe, subscribe form, subscribers, email marketing, optin form, email list, get response, optin monster, email subscribe, email optin, optin email, lading page, email registration, image, images, widget, admin, aweber, mailchimp, getresponse, mad mimi, mail, mailer, gallery, email form, form email
 Requires at least: 3.3
-Tested up to: 4.2.4
+Tested up to: 4.3
 Stable tag: 1.1.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The Best Lightbox Popup to display image, video, notify or announcement with very ease and elegant.
+The best lightbox plugin to display image, video, notify or announcement with very ease and elegant.
 
 == Description ==
 
