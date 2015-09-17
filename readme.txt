@@ -70,6 +70,8 @@ The following are other recommended plugins by the author:
 * [Best Gallery Plugin](https://wordpress.org/plugins/easy-media-gallery/ "gallery plugin") - Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery.
 * [Best Contact Form](https://wordpress.org/plugins/contact-form-lite/ "contact form plugin") - The Best Contact Form Plugin to create awesome Contact Form in minutes.
 * [Best Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/ "slider plugin") - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
+* [Best Image Carousel](https://wordpress.org/plugins/image-carousel/ "image carousel") - Touch enabled WordPress plugin that lets you create a beautiful responsive image carousel.
+* [Best Gallery Lightbox](https://wordpress.org/plugins/gallery-lightbox-slider/ "Gallery Lightbox") - Gallery Lightbox - Displays all gallery images into the lightbox slider in just a few seconds.
 
 > #### **NOTE**
 > If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" title="Translating WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://ghozylab.com" title="GhozyLab" target="_blank">GhozyLab</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" title="Download Poedit" target="_blank">Poedit</a>.
