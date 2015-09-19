@@ -1,7 +1,7 @@
  === Easy Notify Lite ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: optin, form, email, subscribe, form subscribe, subscribe form, subscribers, email marketing, optin form, email list, get response, optin monster, email subscribe, email optin, optin email, lading page, email registration, image, images, widget, admin, aweber, mailchimp, getresponse, mad mimi, mail, mailer, gallery, email form, form email
+Tags: optin, form, email, subscribe, form subscribe, subscribe form, subscribers, email marketing, optin form, email list, get response, optin monster, email subscribe, email optin, optin email, lading page, email registration, image, images, widget, admin, aweber, mailchimp, getresponse, mad mimi, mail, best email opt-in, video popup, email form, form email
 Requires at least: 3.3
 Tested up to: 4.3
 Stable tag: 1.1.10
