@@ -1,7 +1,7 @@
  === Easy Notify Lite ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: optin, form, email, subscribe, form subscribe, subscribe form, subscribers, email marketing, optin form, email list, get response, optin monster, email subscribe, email optin, optin email, lading page, email registration, image, images, widget, admin, aweber, mailchimp, getresponse, mad mimi, mail, best email opt-in, video popup, email form, form email
+Tags: optin, form, email, subscribe, form subscribe, subscribe form, subscribers, email marketing, optin form, email list, get response, optin monster, email subscribe, email optin, optin email, lading page, email registration, image, images, widget, admin, aweber, mailchimp, getresponse, mad mimi, mail, best email opt-in, video popup, email form, form email, ead gen, lead generation, lead generation wordpress, lightbox, lightbox optins, lightbox popup, lightbox popup plugin, lightbox popups, mail list, wordpress popup form, wordpress popup plugin, wordpress popup solution, wordpress popups
 Requires at least: 3.3
 Tested up to: 4.3
 Stable tag: 1.1.10
@@ -26,6 +26,7 @@ The Easy Notify Lite allows you to create visually stunning Popup Message, Notif
 
 Here are the amazing features that allow Easy Notify to get you tons of new **email subscribers**.
 
+* Elegant Lightbox
 * Unlimited Popup / Form
 * Notify Lightbox Popups
 * Image Lightbox Popups
