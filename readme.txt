@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: optin, form, email, subscribe, form subscribe, subscribe form, subscribers, email marketing, optin form, email list, get response, optin monster, email subscribe, email optin, optin email, lading page, email registration, image, images, widget, admin, aweber, mailchimp, getresponse, mad mimi, mail, best email opt-in, video popup, email form, form email, ead gen, lead generation, lead generation wordpress, lightbox, lightbox optins, lightbox popup, lightbox popup plugin, lightbox popups, mail list, wordpress popup form, wordpress popup plugin, wordpress popup solution, wordpress popups
 Requires at least: 3.3
 Tested up to: 4.3
-Stable tag: 1.1.10
+Stable tag: 1.1.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -136,6 +136,11 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.1.11 =
+* Tweak  : Language Packs to compatible with translate.wordpress.org translation system
+* Updated : Language POT
+* Fixed : Many other PHP and CSS clean and optimization
+
 = 1.1.10 =
 * Updated : WordPress 4.2.2 compatibility
 * Updated : Disable Affiliate link on Notify editor
@@ -186,5 +191,5 @@ There are no complicated instructions for using Easy Notify Lite plugin because 
 
 == Upgrade Notice ==
 
-= 1.1.10 =
+= 1.1.11 =
 IMPORTANT! Added New Options, PLEASE UPDATE NOW!

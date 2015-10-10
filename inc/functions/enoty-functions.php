@@ -521,7 +521,7 @@ function easynotify_admin_bar_menu(){
                     'id'     => 'enoty-upgrade-bar',
                     'href' => 'http://ghozylab.com/plugins/pricing/#tab-1408601400-2-44',
                     'parent' => 'top-secondary',
-					'title' => __('<img src="'.plugins_url( 'images/enoty-cp-icon.png' , dirname(__FILE__) ).'" style="vertical-align:middle;margin-right:5px" alt="Upgrade Now!" title="Upgrade Now!" />Upgrade Easy Notify to PRO Version', 'easynotify' ),
+					'title' => '<img src="'.plugins_url( 'images/enoty-cp-icon.png' , dirname(__FILE__) ).'" style="vertical-align:middle;margin-right:5px" alt="Upgrade Now!" title="Upgrade Now!" />Upgrade Easy Notify to PRO Version',
                     'meta'   => array('class' => 'enoty-upgrade-to-pro', 'target' => '_blank' ),
                 ) );
 }
@@ -588,7 +588,7 @@ if (typeof(jQuery().pointer) != 'undefined') {
 /*   DEMO Page
 /*-------------------------------------------------------------------------------*/
 function easynotify_demo_page() {
-    $enoty_demo_page = add_submenu_page('edit.php?post_type=easynotify', 'DEMO', __('DEMO', 'easynotify'), 'edit_posts', 'easynotify_demo', 'easynotify_demo_video');
+    $enoty_demo_page = add_submenu_page('edit.php?post_type=easynotify', 'DEMO', __('DEMO', 'easy-notify-lite'), 'edit_posts', 'easynotify_demo', 'easynotify_demo_video');
 }
 add_action( 'admin_menu', 'easynotify_demo_page' );
 
@@ -597,19 +597,19 @@ function easynotify_demo_video() {
 	?>
     <div class="wrap">
         <div id="icon-edit" class="icon32 icon32-posts-easynotify"><br /></div>
-        <h2><?php _e('Demo', 'easynotify'); ?></h2>
-        <p><?php _e(' The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.', 'easynotify'); ?></p>
+        <h2><?php _e('Demo', 'easy-notify-lite'); ?></h2>
+        <p><?php _e(' The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.', 'easy-notify-lite'); ?></p>
         
 <div class="metabox-holder" style="display:inline-block; width: 330px; max-width: 33%; float:right; vertical-align:top;">
 			<div class="postbox">
-            <h3><?php _e( 'Check it Out!', 'easynotify' ); ?></h3>
+            <h3><?php _e( 'Check it Out!', 'easy-notify-lite' ); ?></h3>
             <?php easynotify_news_metabox(); ?>
            </div>
 	</div>
  
 <div class="metabox-holder" style="max-width:69%; display:block;">
 			<div class="postbox">
-				<h3><?php _e( 'Lite Version', 'easynotify' ); ?></h3>
+				<h3><?php _e( 'Lite Version', 'easy-notify-lite' ); ?></h3>
         <div id="easynotify_lite_vid" style="padding:10px !important; ">
         <iframe width="640" height="360" src="//www.youtube.com/embed/Kss5x7f5DiY?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -618,7 +618,7 @@ function easynotify_demo_video() {
   
 <div class="metabox-holder" style="max-width:69%; display:block;">
 			<div class="postbox">
-				<h3><?php _e( 'PRO Version', 'easynotify' ); ?></h3>
+				<h3><?php _e( 'PRO Version', 'easy-notify-lite' ); ?></h3>
         <div id="easynotify_pro_vid" style="padding:10px !important; ">
         <iframe width="640" height="360" src="//www.youtube.com/embed/Q0cW7bLzuhw?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -645,7 +645,7 @@ echo $new;
 /*   Comparison Page
 /*-------------------------------------------------------------------------------*/
 function easynotify_create_comparison_page() {
-    $enoty_comparison_page = add_submenu_page('edit.php?post_type=easynotify', 'Comparison', __('UPGRADE to PRO', 'easynotify'), 'edit_posts', 'enoty_comparison', 'easynotify_comparison');
+    $enoty_comparison_page = add_submenu_page('edit.php?post_type=easynotify', 'Comparison', __('UPGRADE to PRO', 'easy-notify-lite'), 'edit_posts', 'enoty_comparison', 'easynotify_comparison');
 }
 add_action( 'admin_menu', 'easynotify_create_comparison_page' );
 
@@ -671,7 +671,7 @@ function easynotify_comparison() {
 
     <div class="wrap">
         <div id="icon-edit" class="icon32"><br /></div>
-        <h2><?php _e('Comparison', 'easynotify'); ?></h2>      
+        <h2><?php _e('Comparison', 'easy-notify-lite'); ?></h2>      
   <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:600px;">
     <div class="caption_column">
       <ul>
@@ -844,7 +844,7 @@ function enoty_update_notify() {
 	
     ?>
     <div class="error enoty-setupdate">
-        <p><?php _e( 'We recommend you to enable plugin Auto Update so you\'ll get the latest features and other important updates from <strong>'.ENOTIFY_NAME.'</strong>.<br />Click <a href="#"><strong><span id="enotydoautoupdate">here</span></strong></a> to enable Auto Update.', 'easynotify' ); ?></p>
+        <p><?php echo 'We recommend you to enable plugin Auto Update so you\'ll get the latest features and other important updates from <strong>'.ENOTIFY_NAME.'</strong>.<br />Click <a href="#"><strong><span id="enotydoautoupdate">here</span></strong></a> to enable Auto Update.'; ?></p>
     </div>
     
 <script type="text/javascript">

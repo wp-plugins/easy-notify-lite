@@ -870,8 +870,8 @@ function enoty_metabox_work(){
 	//  Settings Panel METABOX
 	    $enotymeta_box = array(
 		'id' => 'enoty_metaboxmediacp',
-		'title' =>  __( 'Notify Content', 'easynotify' ),
-		'description' => __( 'With this options, you can customizing the look and feel of your Notify to fit your needs.<span class="enotystepone"></span>', 'easynotify' ),
+		'title' =>  __( 'Notify Content', 'easy-notify-lite' ),
+		'description' => __( 'With this options, you can customizing the look and feel of your Notify to fit your needs.<span class="enotystepone"></span>', 'easy-notify-lite' ),
 		'page' => 'easynotify',
 		'context' => 'normal',
 		'priority' => 'default',
@@ -879,8 +879,8 @@ function enoty_metabox_work(){
 		
 		
 			array(
-					'name' => __( 'Layout Mode<span data-ppw="940" data-pph="500" data-toload="layoutmode.html" class="helpicon" id="fornotify"></span>', 'easynotify' ),
-					'desc' => __( 'Please choose notify layout to fit your needs.', 'easynotify' ),
+					'name' => __( 'Layout Mode<span data-ppw="940" data-pph="500" data-toload="layoutmode.html" class="helpicon" id="fornotify"></span>', 'easy-notify-lite' ),
+					'desc' => __( 'Please choose notify layout to fit your needs.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_layoutmode',
 					'type' => 'layoutmode',
 					'std' => 'head_img_txt_list.png',
@@ -888,8 +888,8 @@ function enoty_metabox_work(){
 		
 		
 			array(
-					'name' => __( 'Notify Size', 'easynotify' ),
-					'desc' => __( 'Use this option to set custom width and height of Notify, or you can use the default setting. Width : 740px and height : auto', 'easynotify' ),
+					'name' => __( 'Notify Size', 'easy-notify-lite' ),
+					'desc' => __( 'Use this option to set custom width and height of Notify, or you can use the default setting. Width : 740px and height : auto', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_thumbsize',
 					'type' => 'checkboxopt',
 					'elid' => 'thumbsz',
@@ -903,8 +903,8 @@ function enoty_metabox_work(){
 					),	
 						
 			array(
-					'name' => __( 'Text Header<span data-ppw="550" data-pph="570" data-toload="header.html" class="helpicon"></span>', 'easynotify' ),
-					'desc' => __( 'Set your header text here. For best result the maximum number of characters is 25.', 'easynotify' ),
+					'name' => __( 'Text Header<span data-ppw="550" data-pph="570" data-toload="header.html" class="helpicon"></span>', 'easy-notify-lite' ),
+					'desc' => __( 'Set your header text here. For best result the maximum number of characters is 25.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_header_text',
 					'type' => 'text',
 					'onefunc' => 'onefunc',
@@ -912,8 +912,8 @@ function enoty_metabox_work(){
 					),			
 		
 			array(
-					'name' => __( 'Header Font Size and Color', 'easynotify' ),
-					'desc' => __( 'You can change the font size and color here. Default size: 20px and font color : #f28613', 'easynotify' ),
+					'name' => __( 'Header Font Size and Color', 'easy-notify-lite' ),
+					'desc' => __( 'You can change the font size and color here. Default size: 20px and font color : #f28613', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_header_text_size_col',
 					'type' => 'typo',				
 					'color' => 'clr',
@@ -924,8 +924,8 @@ function enoty_metabox_work(){
 					),
 					
 			array(
-					'name' => __( 'Header Background Color', 'easynotify' ),
-					'desc' => __( 'Set your header background color. Default: #2e2e2e', 'easynotify' ),
+					'name' => __( 'Header Background Color', 'easy-notify-lite' ),
+					'desc' => __( 'Set your header background color. Default: #2e2e2e', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_header_back_col',
 					'type' => 'color',
 					'onefunc' => 'onefunc',
@@ -933,8 +933,8 @@ function enoty_metabox_work(){
 					),	
 							
 			array(
-					'name' => __( 'Main Text<span data-ppw="550" data-pph="570" data-toload="maintext.html" class="helpicon"></span>', 'easynotify' ),
-					'desc' => __( 'Set your main text here. You can use to describe your product, etc.', 'easynotify' ),
+					'name' => __( 'Main Text<span data-ppw="550" data-pph="570" data-toload="maintext.html" class="helpicon"></span>', 'easy-notify-lite' ),
+					'desc' => __( 'Set your main text here. You can use to describe your product, etc.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_maincontent',
 					'type' => 'wpeditor',
 					'onefunc' => 'onefunctext',
@@ -942,8 +942,8 @@ function enoty_metabox_work(){
 					),
 					
 			array(
-					'name' => __( 'Main Text Font Size and Color', 'easynotify' ),
-					'desc' => __( 'You can change the font size and color here. Default size: 14px and font color : #a1a1a1', 'easynotify' ),
+					'name' => __( 'Main Text Font Size and Color', 'easy-notify-lite' ),
+					'desc' => __( 'You can change the font size and color here. Default size: 14px and font color : #a1a1a1', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_main_text_size_col',
 					'type' => 'typo',				
 					'color' => 'clr',
@@ -954,8 +954,8 @@ function enoty_metabox_work(){
 					),	
 					
 			array(
-					'name' => __( 'Video Embed Code', 'easynotify' ),
-					'desc' => __( 'Copy video embed code from Youtube or Vimeo and paste to this field.', 'easynotify' ),
+					'name' => __( 'Video Embed Code', 'easy-notify-lite' ),
+					'desc' => __( 'Copy video embed code from Youtube or Vimeo and paste to this field.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_video',
 					'type' => 'textarea',
 					'onefunc' => 'onefuncimg',
@@ -963,8 +963,8 @@ function enoty_metabox_work(){
 					),
 					
 			array(
-					'name' => __( 'Youtube & Vimeo Auto Play', 'easynotify' ),
-					'desc' => __( ' Use this to enable/disable video auto play. This option only work on Youtube & Vimeo. Default : Auto', 'easynotify' ),
+					'name' => __( 'Youtube & Vimeo Auto Play', 'easy-notify-lite' ),
+					'desc' => __( ' Use this to enable/disable video auto play. This option only work on Youtube & Vimeo. Default : Auto', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_video_autoplay',
 					'type' => 'checkboxoptdef',
 					'onefunc' => 'onefuncimg',
@@ -972,8 +972,8 @@ function enoty_metabox_work(){
 					),	
 					
 			array(
-					'name' => __( 'Image<span data-ppw="550" data-pph="500" data-toload="image.html" class="helpicon"></span>', 'easynotify' ),
-					'desc' => __( 'Select or upload your Notify image.', 'easynotify' ),
+					'name' => __( 'Image<span data-ppw="550" data-pph="500" data-toload="image.html" class="helpicon"></span>', 'easy-notify-lite' ),
+					'desc' => __( 'Select or upload your Notify image.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_img',
 					'type' => 'images',
 					'onefunc' => 'onefuncimg',
@@ -981,8 +981,8 @@ function enoty_metabox_work(){
 				 ),	
 
 			array(
-					'name' => __( 'Bullet List', 'easynotify' ),
-					'desc' => __( 'Use this option to create the text list of you Notify. Make sure to turn it ON.', 'easynotify' ),
+					'name' => __( 'Bullet List', 'easy-notify-lite' ),
+					'desc' => __( 'Use this option to create the text list of you Notify. Make sure to turn it ON.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_bullet',
 					'type' => 'bullet',
 					'elid' => 'customfileds',
@@ -993,8 +993,8 @@ function enoty_metabox_work(){
 		
 		
 			array(
-					'name' => __( 'Bullet List Font Size and Color', 'easynotify' ),
-					'desc' => __( 'You can change the font size and color here. Default size: 12px and font color : #e8e8e8', 'easynotify' ),
+					'name' => __( 'Bullet List Font Size and Color', 'easy-notify-lite' ),
+					'desc' => __( 'You can change the font size and color here. Default size: 12px and font color : #e8e8e8', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_bullet_list_text',
 					'type' => 'typo',				
 					'color' => 'clr',
@@ -1005,8 +1005,8 @@ function enoty_metabox_work(){
 					),	
 					
 			array(
-					'name' => __( 'Bullet List Style & Color<span data-ppw="550" data-pph="550" data-toload="bullets.html" class="helpicon"></span>', 'easynotify' ),
-					'desc' => __( 'You can change the bullet style and color here. Default: Rounded Blue', 'easynotify' ),
+					'name' => __( 'Bullet List Style & Color<span data-ppw="550" data-pph="550" data-toload="bullets.html" class="helpicon"></span>', 'easy-notify-lite' ),
+					'desc' => __( 'You can change the bullet style and color here. Default: Rounded Blue', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_bullet_style_color',
 					'type' => 'select',				
 					'std' => 'bullroundedorange',
@@ -1028,8 +1028,8 @@ function enoty_metabox_work(){
 							),
 		
 			array(
-					'name' => __( 'Footer Container<span data-ppw="750" data-pph="550" data-toload="footer_cont.html" class="helpicon"></span>', 'easynotify' ),
-					'desc' => __( 'Please select the content for your footer, you can use it to display social sharing buttons, Opt-in ( subscribe form ) or custom button with custom text.', 'easynotify' ),
+					'name' => __( 'Footer Container<span data-ppw="750" data-pph="550" data-toload="footer_cont.html" class="helpicon"></span>', 'easy-notify-lite' ),
+					'desc' => __( 'Please select the content for your footer, you can use it to display social sharing buttons, Opt-in ( subscribe form ) or custom button with custom text.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_ribbon_container',
 					'type' => 'select',				
 					'std' => 'none',
@@ -1044,16 +1044,16 @@ function enoty_metabox_work(){
 					
 			/* Custom Button */
 			array(
-					'name' => __( 'Custom Text', 'easynotify' ),
-					'desc' => __( 'Set your custom text here. For best result the maximum number of characters is 35.', 'easynotify' ),
+					'name' => __( 'Custom Text', 'easy-notify-lite' ),
+					'desc' => __( 'Set your custom text here. For best result the maximum number of characters is 35.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_ribbon_text',
 					'type' => 'text',
 					'std' => ''
 					),	
 					
 			array(
-					'name' => __( 'Text Font Size and Color', 'easynotify' ),
-					'desc' => __( 'You can change the font size and color here. Default size: 26px and font color : #ffffff', 'easynotify' ),
+					'name' => __( 'Text Font Size and Color', 'easy-notify-lite' ),
+					'desc' => __( 'You can change the font size and color here. Default size: 26px and font color : #ffffff', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_ribbon_text_fcol',
 					'type' => 'typo',				
 					'color' => 'clr',
@@ -1063,32 +1063,32 @@ function enoty_metabox_work(){
 					),
 					
 			array(
-					'name' => __( 'Button Text', 'easynotify' ),
-					'desc' => __( 'Set your button text here. For best result the  maximum number of characters is 15.', 'easynotify' ),
+					'name' => __( 'Button Text', 'easy-notify-lite' ),
+					'desc' => __( 'Set your button text here. For best result the  maximum number of characters is 15.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_ribbon_button_text',
 					'type' => 'text',
 					'std' => 'Get Access Now!'
 					),	
 					
 			array(
-					'name' => __( 'Button Link / URL', 'easynotify' ),
-					'desc' => __( 'Your visitor will go to this link when they press the button.', 'easynotify' ),
+					'name' => __( 'Button Link / URL', 'easy-notify-lite' ),
+					'desc' => __( 'Your visitor will go to this link when they press the button.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_ribbon_button_link',
 					'type' => 'text',
 					'std' => ''
 					),
 					
 			array(
-					'name' => __( 'Open link in new window ', 'easynotify' ),
-					'desc' => __( 'If ON, your link will open in new window.', 'easynotify' ),
+					'name' => __( 'Open link in new window ', 'easy-notify-lite' ),
+					'desc' => __( 'If ON, your link will open in new window.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_ribbon_button_link_target',
 					'type' => 'checkboxoptdef',
 					'std' => 'on'
 					),	
 					
 			array(
-					'name' => __( 'Button Text Font Size and Color', 'easynotify' ),
-					'desc' => __( 'You can change the font size and color here. Default size: 16px and font color : #f5f5f5', 'easynotify' ),
+					'name' => __( 'Button Text Font Size and Color', 'easy-notify-lite' ),
+					'desc' => __( 'You can change the font size and color here. Default size: 16px and font color : #f5f5f5', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_button_text_fcol',
 					'type' => 'typo',				
 					'color' => 'clr',
@@ -1098,8 +1098,8 @@ function enoty_metabox_work(){
 					),	
 					
 			array(
-					'name' => __( 'Button Background Gradient', 'easynotify' ),
-					'desc' => __( 'Use this option to generate button gradient color. Default : #42424C to #25262B', 'easynotify' ),
+					'name' => __( 'Button Background Gradient', 'easy-notify-lite' ),
+					'desc' => __( 'Use this option to generate button gradient color. Default : #42424C to #25262B', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_ribbon_button_gradient_color',
 					'type' => 'gradient',
 					'from' => 'from',
@@ -1111,8 +1111,8 @@ function enoty_metabox_work(){
 					
 			/* Opt-in */
 			array(
-					'name' => __( 'Disable / Enable Name Field', 'easynotify' ),
-					'desc' => __( 'You can use Name field in your subscribe form or disable it if you want to use Email only.', 'easynotify' ),
+					'name' => __( 'Disable / Enable Name Field', 'easy-notify-lite' ),
+					'desc' => __( 'You can use Name field in your subscribe form or disable it if you want to use Email only.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_option_name_opt',
 					'type' => 'radio',
 					'options' => array (	
@@ -1122,32 +1122,32 @@ function enoty_metabox_work(){
 					),
 			
 			array(
-					'name' => __( 'Name Placeholder', 'easynotify' ),
-					'desc' => __( 'Set Name Placeholder here.', 'easynotify' ),
+					'name' => __( 'Name Placeholder', 'easy-notify-lite' ),
+					'desc' => __( 'Set Name Placeholder here.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_optin_phldr_name',
 					'type' => 'text',
 					'std' => 'Your Name...'
 					),	
 				
 			array(
-					'name' => __( 'E-mail Placeholder', 'easynotify' ),
-					'desc' => __( 'Set your e-mail Placeholder here.', 'easynotify' ),
+					'name' => __( 'E-mail Placeholder', 'easy-notify-lite' ),
+					'desc' => __( 'Set your e-mail Placeholder here.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_optin_phldr_email',
 					'type' => 'text',
 					'std' => 'Your E-mail...'
 					),	
 					
 			array(					
-					'name' => __( 'Submit Button Text', 'easynotify' ),
-					'desc' => __( 'Set your submit button here. For best result the  maximum number of characters is 15.', 'easynotify' ),
+					'name' => __( 'Submit Button Text', 'easy-notify-lite' ),
+					'desc' => __( 'Set your submit button here. For best result the  maximum number of characters is 15.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_optin_submit_text',
 					'type' => 'text',
 					'std' => 'Subscribe Now!'
 					),				
 					
 			array(
-					'name' => __( 'Submit Button Font Size & Color', 'easynotify' ),
-					'desc' => __( 'You can change the font size and color here. Default size: 16px and font color : #f5f5f5', 'easynotify' ),
+					'name' => __( 'Submit Button Font Size & Color', 'easy-notify-lite' ),
+					'desc' => __( 'You can change the font size and color here. Default size: 16px and font color : #f5f5f5', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_optin_text_fcol',
 					'type' => 'typo',				
 					'color' => 'clr',
@@ -1157,8 +1157,8 @@ function enoty_metabox_work(){
 					),
 					
 			array(
-					'name' => __( 'Submit Button Background Gradient', 'easynotify' ),
-					'desc' => __( 'Use this option to generate button gradient color. Default : #42424C to #25262B', 'easynotify' ),
+					'name' => __( 'Submit Button Background Gradient', 'easy-notify-lite' ),
+					'desc' => __( 'Use this option to generate button gradient color. Default : #42424C to #25262B', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_option_submit_gradient_color',
 					'type' => 'gradient',
 					'from' => 'from',
@@ -1168,8 +1168,8 @@ function enoty_metabox_work(){
 					),	
 								
 			array(
-					'name' => __( 'Privacy Note', 'easynotify' ),
-					'desc' => __( 'Set your privacy note here. For example : Your privacy is protected & your email address will never be shared with any 3rd parties.', 'easynotify' ),
+					'name' => __( 'Privacy Note', 'easy-notify-lite' ),
+					'desc' => __( 'Set your privacy note here. For example : Your privacy is protected & your email address will never be shared with any 3rd parties.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_optin_privacy_note',
 					'type' => 'text',
 					'std' => ''
@@ -1178,8 +1178,8 @@ function enoty_metabox_work(){
 					
 			/* Share Button */		
 			array(
-					'name' => __( 'Share Button Position', 'easynotify' ),
-					'desc' => __( 'Set the position of your share button. Default: Center', 'easynotify' ),
+					'name' => __( 'Share Button Position', 'easy-notify-lite' ),
+					'desc' => __( 'Set the position of your share button. Default: Center', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_share_pos',
 					'type' => 'radio',
 					'options' => array (	
@@ -1190,40 +1190,40 @@ function enoty_metabox_work(){
 					),
 					
 			array(
-					'name' => __( 'Show Facebook Button', 'easynotify' ),
-					'desc' => __( 'Use this to show/hide Facebook Button.', 'easynotify' ),
+					'name' => __( 'Show Facebook Button', 'easy-notify-lite' ),
+					'desc' => __( 'Use this to show/hide Facebook Button.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_share_fb',
 					'type' => 'checkboxoptdef',
 					'std' => 'on'
 					),	
 					
 			array(
-					'name' => __( 'Show Twitter Button', 'easynotify' ),
-					'desc' => __( 'Use this to show/hide Twitter Button.', 'easynotify' ),
+					'name' => __( 'Show Twitter Button', 'easy-notify-lite' ),
+					'desc' => __( 'Use this to show/hide Twitter Button.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_share_twtr',
 					'type' => 'checkboxoptdef',
 					'std' => 'on'
 					),	
 					
 			array(
-					'name' => __( 'Show Google+ Button', 'easynotify' ),
-					'desc' => __( 'Use this to show/hide Google+ Button.', 'easynotify' ),
+					'name' => __( 'Show Google+ Button', 'easy-notify-lite' ),
+					'desc' => __( 'Use this to show/hide Google+ Button.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_share_gplus',
 					'type' => 'checkboxoptdef',
 					'std' => 'on'
 					),						
 					
 			array(
-					'name' => __( 'Show Pinterest Button', 'easynotify' ),
-					'desc' => __( 'Use this to show/hide Pinterest Button.', 'easynotify' ),
+					'name' => __( 'Show Pinterest Button', 'easy-notify-lite' ),
+					'desc' => __( 'Use this to show/hide Pinterest Button.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_share_pin',
 					'type' => 'checkboxoptdef',
 					'std' => 'on'
 					),	
 					
 			array(
-					'name' => __( 'Show Email Button', 'easynotify' ),
-					'desc' => __( 'Use this to show/hide Email Button.', 'easynotify' ),
+					'name' => __( 'Show Email Button', 'easy-notify-lite' ),
+					'desc' => __( 'Use this to show/hide Email Button.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_share_email',
 					'type' => 'checkboxoptdef',
 					'std' => 'on'
@@ -1231,8 +1231,8 @@ function enoty_metabox_work(){
 					
 					
 			array(
-					'name' => __( 'Footer Styles', 'easynotify' ),
-					'desc' => __( 'You can change the ribbon ( background for share button or Opt-In ) styles here. Default: Blue Ribbon', 'easynotify' ),
+					'name' => __( 'Footer Styles', 'easy-notify-lite' ),
+					'desc' => __( 'You can change the ribbon ( background for share button or Opt-In ) styles here. Default: Blue Ribbon', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_ribbon',
 					'type' => 'select',				
 					'std' => 'noribbon',
@@ -1256,32 +1256,32 @@ function enoty_metabox_work(){
 	//  Styling METABOX
 	    $enotymeta_box = array(
 		'id' => 'enoty_metaboxmediastyle',
-		'title' =>  __( 'Styling', 'easynotify' ),
-		'description' => __( 'Now you can change the look of your notify to fit your needs here.<span class="enotysteptwo"></span>', 'easynotify' ),
+		'title' =>  __( 'Styling', 'easy-notify-lite' ),
+		'description' => __( 'Now you can change the look of your notify to fit your needs here.<span class="enotysteptwo"></span>', 'easy-notify-lite' ),
 		'page' => 'easynotify',
 		'context' => 'normal',
 		'priority' => 'default',
 		'fields' => array(
 		
 			array(
-					'name' => __( 'Overlay Pattern<span data-ppw="745" data-pph="620" data-toload="overlay_pattern.html" class="helpicon"></span>', 'easynotify' ),
-					'desc' => __( 'Please define pattern for yor Notify overlay.', 'easynotify' ),
+					'name' => __( 'Overlay Pattern<span data-ppw="745" data-pph="620" data-toload="overlay_pattern.html" class="helpicon"></span>', 'easy-notify-lite' ),
+					'desc' => __( 'Please define pattern for yor Notify overlay.', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_pattern',
 					'type' => 'pattern',
 					'std' => 'pattern-01.png'
 				 ),	
 				 
 			array(
-					'name' => __( 'Overlay Color', 'easynotify' ),
-					'desc' => __( 'Set your Notify overlay color. Default: #c7c7c7', 'easynotify' ),
+					'name' => __( 'Overlay Color', 'easy-notify-lite' ),
+					'desc' => __( 'Set your Notify overlay color. Default: #c7c7c7', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_overlay_col',
 					'type' => 'color',
 					'std' => '#c7c7c7'
 					),
 					
 			array(
-					'name' => __( 'Overlay Opacity', 'easynotify' ),
-					'desc' => __( 'Opacity of the fullpage overlay when an Notify is opened. Default : 70%', 'easynotify' ),
+					'name' => __( 'Overlay Opacity', 'easy-notify-lite' ),
+					'desc' => __( 'Opacity of the fullpage overlay when an Notify is opened. Default : 70%', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_overlay_opcty',
 					'type' => 'slider',
 					'std' => '70',
@@ -1293,8 +1293,8 @@ function enoty_metabox_work(){
 					),	
 					
 			array(
-					'name' => __( 'Notify Gradient Background Color<span data-ppw="680" data-pph="580" data-toload="notybg.html" class="helpicon"></span>', 'easynotify' ),
-					'desc' => __( 'Use this option to generate Notify gradient background color. Default : #383838 to #272727', 'easynotify' ),
+					'name' => __( 'Notify Gradient Background Color<span data-ppw="680" data-pph="580" data-toload="notybg.html" class="helpicon"></span>', 'easy-notify-lite' ),
+					'desc' => __( 'Use this option to generate Notify gradient background color. Default : #383838 to #272727', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_background_color',
 					'type' => 'gradient',
 					'from' => 'from',
@@ -1304,8 +1304,8 @@ function enoty_metabox_work(){
 					),
 					
 			array(
-					'name' => __( 'Notify Gradient Background Type', 'easynotify' ),
-					'desc' => __( 'You can change the gradient type here. Default: Linear', 'easynotify' ),
+					'name' => __( 'Notify Gradient Background Type', 'easy-notify-lite' ),
+					'desc' => __( 'You can change the gradient type here. Default: Linear', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_background_type',
 					'type' => 'radio',
 					'options' => array (
@@ -1315,8 +1315,8 @@ function enoty_metabox_work(){
 					),
 					
 			array(
-					'name' => __( 'Open Notify Delay', 'easynotify' ),
-					'desc' => __( 'This option allow you to delay the automatic load of your Notify. Default : 1 second', 'easynotify' ),
+					'name' => __( 'Open Notify Delay', 'easy-notify-lite' ),
+					'desc' => __( 'This option allow you to delay the automatic load of your Notify. Default : 1 second', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_notify_delay',
 					'type' => 'slider',
 					'std' => '1',
@@ -1328,8 +1328,8 @@ function enoty_metabox_work(){
 					),	
 					
 			array(
-					'name' => __( 'Open Effect', 'easynotify' ),
-					'desc' => __( 'Animation effect when your Notify show up. Default: Fade', 'easynotify' ),
+					'name' => __( 'Open Effect', 'easy-notify-lite' ),
+					'desc' => __( 'Animation effect when your Notify show up. Default: Fade', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_open_effect',
 					'type' => 'radio',
 					'options' => array (
@@ -1339,8 +1339,8 @@ function enoty_metabox_work(){
 					),
 					
 			array(
-					'name' => __( 'Close Effect', 'easynotify' ),
-					'desc' => __( 'Animation effect when your Notify disappear. Default: Fade', 'easynotify' ),
+					'name' => __( 'Close Effect', 'easy-notify-lite' ),
+					'desc' => __( 'Animation effect when your Notify disappear. Default: Fade', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_close_effect',
 					'type' => 'radio',
 					'options' => array (
@@ -1350,8 +1350,8 @@ function enoty_metabox_work(){
 					),
 					
 			array(
-					'name' => __( 'Close Button Icon<span data-ppw="500" data-pph="400" data-toload="closeicon.html" class="helpicon"></span>', 'easynotify' ),
-					'desc' => __( 'You can change the close button icon to fit your needs. Default: Red Square', 'easynotify' ),
+					'name' => __( 'Close Button Icon<span data-ppw="500" data-pph="400" data-toload="closeicon.html" class="helpicon"></span>', 'easy-notify-lite' ),
+					'desc' => __( 'You can change the close button icon to fit your needs. Default: Red Square', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_close_icon',
 					'type' => 'select',				
 					'std' => 'default',
@@ -1373,15 +1373,15 @@ function enoty_metabox_work(){
 	//  Cookies METABOX	
 	    $enotymeta_box = array(
 		'id' => 'enoty_select_cookies',
-		'title' =>  __( 'Cookies', 'easynotify' ),
-		'description' => __( 'When user close the notify, how long should it be before the Notify is shown again?<span class="enotystepthree"></span>', 'easynotify' ),
+		'title' =>  __( 'Cookies', 'easy-notify-lite' ),
+		'description' => __( 'When user close the notify, how long should it be before the Notify is shown again?<span class="enotystepthree"></span>', 'easy-notify-lite' ),
 		'page' => 'easynotify',
 		'context' => 'normal',
 		'priority' => 'default',
 		'fields' => array(
 			array(
-					'name' => __( 'Cookie Time on Close<span data-ppw="680" data-pph="375" data-toload="cookies.html" class="helpicon"></span>', 'easynotify' ),
-					'desc' => __( 'You can set the days when the Notify will shown again, for example 7 for every week.<br /><span style="color:red; font-weight:bold;">Set with -1 If you want to notify appear at any time.</span>', 'easynotify' ),
+					'name' => __( 'Cookie Time on Close<span data-ppw="680" data-pph="375" data-toload="cookies.html" class="helpicon"></span>', 'easy-notify-lite' ),
+					'desc' => __( 'You can set the days when the Notify will shown again, for example 7 for every week.<br /><span style="color:red; font-weight:bold;">Set with -1 If you want to notify appear at any time.</span>', 'easy-notify-lite' ),
 					'id' => 'enoty_cp_cookies',
 					'type' => 'shorttext',
 					'aftr' => 'day(s)',
@@ -1395,16 +1395,16 @@ function enoty_metabox_work(){
 	//  Publish METABOX
 	    $enotymeta_box = array(
 		'id' => 'enoty_metaboxmediasc',
-		'title' =>  __( 'Shortcode Generator', 'easynotify' ),
-		'description' => __( 'This is the final steps. Now you can copy the shortcode and paste to your New/Old Post/Page to show your Notify. If you want to set Notify to show on everywhere you can go <a href="'.admin_url( 'edit.php?post_type=easynotify&page=easynotify_settings' ).'">'.__('here', 'easynotify').'</a> under <strong>Default Notify</strong> > select the notify from dropdown list.<br /><strong style="color:#0678CC;">Make sure to Save/Update Notify before/after copy the shortcode.</strong><span class="enotystepfour"></span>', 'easynotify' ),
+		'title' =>  __( 'Shortcode Generator', 'easy-notify-lite' ),
+		'description' => __( 'This is the final steps. Now you can copy the shortcode and paste to your New/Old Post/Page to show your Notify. If you want to set Notify to show on everywhere you can go <a href="'.admin_url( 'edit.php?post_type=easynotify&page=easynotify_settings' ).'">'.__('here', 'easy-notify-lite').'</a> under <strong>Default Notify</strong> > select the notify from dropdown list.<br /><strong style="color:#0678CC;">Make sure to Save/Update Notify before/after copy the shortcode.</strong><span class="enotystepfour"></span>', 'easy-notify-lite' ),
 		'page' => 'easynotify',
 		'context' => 'normal',
 		'priority' => 'default',
 		'fields' => array(
 		
 			array(
-					'name' => __( 'Shortcode', 'easynotify' ),
-					'desc' => __( 'Move cursor on blue area, right click and copy the shortcode.', 'easynotify' ),
+					'name' => __( 'Shortcode', 'easy-notify-lite' ),
+					'desc' => __( 'Move cursor on blue area, right click and copy the shortcode.', 'easy-notify-lite' ),
 					'id' => 'enoty_metabox_media_shortcode',
 					'type' => 'theshortcode',	
 					'std' => '&#91;easy-notify id='. get_the_ID() .'&#93;'

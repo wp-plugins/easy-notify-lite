@@ -4,7 +4,9 @@ Plugin Name: Easy Notify Lite
 Plugin URI: http://www.ghozylab.com/plugins/easy-notify/
 Description: Easy Notify Lite - Display notify, announcement and subscribe form ( Opt-in ) with very ease, fancy and elegant.<a href="http://ghozylab.com/plugins/pricing/#tab-1408601400-2-44" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.1.10
+Text Domain: easy-notify-lite
+Domain Path: /languages
+Version: 1.1.11
 Author URI: http://www.ghozylab.com/
 */
 
@@ -30,7 +32,7 @@ if ( ! defined( 'ENOTIFY_URL' ) ) {
 }
 
 if ( !defined( 'ENOTIFY_VERSION' ) ) {
-	define( 'ENOTIFY_VERSION', '1.1.10' );
+	define( 'ENOTIFY_VERSION', '1.1.11' );
 	}
 
 if ( !defined( 'ENOTIFY_NAME' ) ) {
@@ -112,7 +114,7 @@ if (!extension_loaded('gd') && !function_exists('gd_info')) {
 /*   I18N - LOCALIZATION
 /*-------------------------------------------------------------------------------*/
 function easynotify_lang_init() {
-	load_plugin_textdomain( 'easynotify', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	load_plugin_textdomain( 'easy-notify-lite', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 	}
 	
 add_action( 'init', 'easynotify_lang_init' );
@@ -138,18 +140,18 @@ if ( !is_admin() )
 /*-------------------------------------------------------------------------------*/
 function easynotify_post_type() {
 	$labels = array(
-		'name' 				=> _x( ENOTIFY_NAME, 'post type general name' ),
-		'singular_name'		=> _x( ENOTIFY_NAME, 'post type singular name' ),
-		'add_new' 			=> __( 'Add New Notify', 'easynotify' ),
-		'add_new_item' 		=> __( 'Easy Notify Item', 'easynotify' ),
-		'edit_item' 		=> __( 'Edit Notify', 'easynotify' ),
-		'new_item' 			=> __( 'New Notify', 'easynotify' ),
-		'view_item' 		=> __( 'View Notify', 'easynotify' ),
-		'search_items' 		=> __( 'Search Media', 'easynotify' ),
-		'not_found' 		=> __( 'No Notify Found', 'easynotify' ),
-		'not_found_in_trash'=> __( 'No Notify Found In Trash', 'easynotify' ),
-		'parent_item_colon' => __( 'Parent Notify', 'easynotify' ),
-		'menu_name'			=> __( ENOTIFY_NAME, 'easynotify' )
+		'name' 				=> _x( 'Easy Notify Lite', 'post type general name', 'easy-notify-lite' ),
+		'singular_name'		=> _x( 'Easy Notify Lite', 'post type singular name', 'easy-notify-lite' ),
+		'add_new' 			=> __( 'Add New Notify', 'easy-notify-lite' ),
+		'add_new_item' 		=> __( 'Easy Notify Item', 'easy-notify-lite' ),
+		'edit_item' 		=> __( 'Edit Notify', 'easy-notify-lite' ),
+		'new_item' 			=> __( 'New Notify', 'easy-notify-lite' ),
+		'view_item' 		=> __( 'View Notify', 'easy-notify-lite' ),
+		'search_items' 		=> __( 'Search Media', 'easy-notify-lite' ),
+		'not_found' 		=> __( 'No Notify Found', 'easy-notify-lite' ),
+		'not_found_in_trash'=> __( 'No Notify Found In Trash', 'easy-notify-lite' ),
+		'parent_item_colon' => __( 'Parent Notify', 'easy-notify-lite' ),
+		'menu_name'			=> __( 'Easy Notify Lite', 'easy-notify-lite' )
 	);
 
 	$taxonomies = array();
@@ -157,7 +159,7 @@ function easynotify_post_type() {
 	
 	$post_type_args = array(
 		'labels' 			=> $labels,
-		'singular_label' 	=> __( 'Easy Notify', 'easynotify' ),
+		'singular_label' 	=> __( 'Easy Notify', 'easy-notify-lite' ),
 		'public' 			=> false,
 		'show_ui' 			=> true,
 		'exclude_from_search' => true,
@@ -166,7 +168,7 @@ function easynotify_post_type() {
 		'capability_type' 	=> 'post',
 		'has_archive' 		=> false,
 		'hierarchical' 		=> false,
-		'rewrite' 			=> array( 'slug' => 'easynotify', 'with_front' => false ),
+		'rewrite' 			=> array( 'slug' => 'easy-notify-lite', 'with_front' => false ),
 		'supports' 			=> $supports,
 		'menu_position' 	=> 21,
 		'menu_icon' 		=>  plugins_url( 'inc/images/easynotify-cp-icon.png' , __FILE__ ),		
@@ -185,12 +187,12 @@ add_filter( 'manage_edit-easynotify_columns', 'easynotify_edit_columns' );
 function easynotify_edit_columns( $easynotify_columns ){  
 	$easynotify_columns = array(  
 		'cb' => '<input type="checkbox" />',  
-		'title' => _x( 'Title', 'column name', 'easynotify' ),
-		'enoty_layout' => __( 'Layout Mode', 'easynotify'),
-		'enoty_shortcode' => __( 'Shortcode', 'easynotify'),
-		'enoty_id' => __( 'ID', 'easynotify'),
-		'enoty_preview' => __( 'Preview', 'easynotify'),
-		'enoty_cookie' => __( 'Clear Cookies', 'easynotify')			
+		'title' => _x( 'Title', 'column name', 'easy-notify-lite' ),
+		'enoty_layout' => __( 'Layout Mode', 'easy-notify-lite'),
+		'enoty_shortcode' => __( 'Shortcode', 'easy-notify-lite'),
+		'enoty_id' => __( 'ID', 'easy-notify-lite'),
+		'enoty_preview' => __( 'Preview', 'easy-notify-lite'),
+		'enoty_cookie' => __( 'Clear Cookies', 'easy-notify-lite')			
 			
 	);  
 	unset( $columns['Date'] );
@@ -243,7 +245,7 @@ add_filter( 'manage_posts_custom_column',  'easynotify_edit_columns_list', 10, 2
 /*-------------------------------------------------------------------------------*/
 function easynotify_rename_submenu() {  
     global $submenu;     
-	$submenu['edit.php?post_type=easynotify'][5][0] = __( 'Overview', 'easynotify' );  
+	$submenu['edit.php?post_type=easynotify'][5][0] = __( 'Overview', 'easy-notify-lite' );  
 }  
 add_action( 'admin_menu', 'easynotify_rename_submenu' );  
 
@@ -274,7 +276,7 @@ function easynotify_settings_link( $link, $file ) {
 		$this_plugin = plugin_basename( __FILE__ );
 
 	if ( $file == $this_plugin ) {
-		$settings_link = '<a href="' . admin_url( 'edit.php?post_type=easynotify&page=easynotify_settings' ) . '">' . __( 'Settings', 'easynotify' ) . '</a>';
+		$settings_link = '<a href="' . admin_url( 'edit.php?post_type=easynotify&page=easynotify_settings' ) . '">' . __( 'Settings', 'easy-notify-lite' ) . '</a>';
 		array_unshift( $link, $settings_link );
 	}
 	
