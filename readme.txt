@@ -12,15 +12,15 @@ The best lightbox plugin to display image, video, notify or announcement with ve
 
 == Description ==
 
-The Easy Notify Lite allows you to create visually stunning Popup Message, Notify Box and [Optin Form](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-basic-notify-and-a-simple-announcement/ "Optin plugin") ( _Pro Version_ ) that are optimized for the highest conversion rates.
+The Easy Notify Lite allows you to create visually stunning Popup Message, Notify Box and [Optin Form](https://ghozylab.com/plugins/easy-notify-pro/demo/demo-basic-notify-and-a-simple-announcement/ "Optin plugin") ( _Pro Version_ ) that are optimized for the highest conversion rates.
 
 > #### **Live Demos**
 
-> * [DEMO : Basic Notify and A Simple Announcement -  ( Lite & Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-basic-notify-and-a-simple-announcement/ "optin form plugin")
-> * [DEMO : Popup Opt-in ( Subscribe Form ) - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/popup-opt-in-subscribe-form/ "best email subscribe plugin")
-> * [DEMO : Popup with Social Share Buttons - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-social-share-buttons/ "best email registration plugin")
-> * [DEMO : Popup with Call to Action - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-custom-text-button/ "subscribe form plugin")
-> * [DEMO : Popup with Video - ( Pro )](http://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-video/ "email plugin")
+> * [DEMO : Basic Notify and A Simple Announcement -  ( Lite & Pro )](https://ghozylab.com/plugins/easy-notify-pro/demo/demo-basic-notify-and-a-simple-announcement/ "optin form plugin")
+> * [DEMO : Popup Opt-in ( Subscribe Form ) - ( Pro )](https://ghozylab.com/plugins/easy-notify-pro/demo/popup-opt-in-subscribe-form/ "best email subscribe plugin")
+> * [DEMO : Popup with Social Share Buttons - ( Pro )](https://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-social-share-buttons/ "best email registration plugin")
+> * [DEMO : Popup with Call to Action - ( Pro )](https://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-custom-text-button/ "subscribe form plugin")
+> * [DEMO : Popup with Video - ( Pro )](https://ghozylab.com/plugins/easy-notify-pro/demo/demo-popup-with-video/ "email plugin")
 
 = Features =
 
@@ -122,7 +122,7 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy N
 * If you really love Easy Notify any donation would be appreciated! It helps to continue the development and support of the plugin.
 But seriously, I just want to drink coffee for free, so help a developer out. You can use this link [Donate to Easy Notify][easynotify donate].
 
-[easynotify donate]: http://ghozylab.com/plugins/donate
+[easynotify donate]: https://ghozylab.com/plugins/donate
             "Donate to Easy Notify"
 
 
